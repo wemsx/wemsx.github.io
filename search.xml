@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>MCjava也有成长守护？</title>
+      <link href="/posts/82556d82/"/>
+      <url>/posts/82556d82/</url>
+      
+        <content type="html"><![CDATA[<p>进来看看？</p><span id="more"></span><p>玩网易？不用听我BB了，反正网易看了也没用。<br>2017年二月，国家对“未成年人网络游戏防沉迷”问题做出相应指示，在国务院法制办官网公布的《未成年人网络保护条例(送审稿)》当中，第23条就明确规定“禁止未成年人在每日的0：00至8：00期间使用网络游戏服务”<br>以腾讯为例，从2017年2月16日起上线了成长守护系统，其他公司也接连推出了类似的“服务”。起初问题不大，毕竟限制较少。但2021年月30日国家新闻出版署下发《关于进一步严格管理 切实防止未成年人沉迷网络游戏的通知》，堪称史上最严游戏监管令。内容不必多说，虽然就个人而言，我并不认为它起了充分的效果。当时想着其实破解方法不少，比如玩玩单机，玩玩国际服等，结果借了个小盆友的手机看了看，基本市场上主流的游戏都要求实名认证(但是否是真正的实名还是只需要随便填几位数字这就不知道了，毕竟拿着别人的手机)。然后我就觉得，未成年人之后要么遵守规定，就玩那每周两小时，要么选择用家长的身份证，要么，也就引出了今天的主题，玩玩某些不被监管的游戏，比如Minecraft JE。<br>先说明，其实不管BE还是JE，都不需要实名，但都需要买（JE非官方启动器除外）。所以可以说门槛相对网易更高。</p><p>说回成长守护。就在最新的22w06a快照中，我们可以看到这样一段<br><img src="https://cdn.jsdelivr.net/gh/Thewems/imgcdn1/img/%E9%98%B2%E6%B2%89%E8%BF%B722w06a.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/Thewems/imgcdn1/img/%E9%98%B2%E6%B2%89%E8%BF%B722w06a.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="><br>也就是说，韩国玩家将面临防沉迷。当然，毕竟是BugJump，我们可以翻翻图中的FAQ，可以看到如下<br>![](<a href="https://cdn.jsdelivr.net/gh/Thewems/imgcdn1/img/%E6%88%AA%E5%B1%8F2022-02-13">https://cdn.jsdelivr.net/gh/Thewems/imgcdn1/img/截屏2022-02-13</a> 18.34.15.png)<br>原文当然不是中文，但也可以发现，其实我标题党了，这个系统并没有国内限制那么死，但个人认为下面关于Xbox的内容更有意思，大致就是让家长可以控制部分功能。<br>总体来说，上面说的全是废话，但还有一点，就是它会不会移植入中国地区的版本。引用论坛大佬的观点，它多半不会，因为当时网易是中国地区全版本代理，那么在这些与BugJump核心业务无关的东西他们也多半不会管。那么这样看来反而中国地区不太可能被防沉迷，而且，谁不愿意凡尔赛一下自己玩十多个小时还挖不到钻石的非酋经历呢？</p><p>如果有什么说得不合适或者说错了的，欢迎大指正。</p><p>最后打个广告，我自己的网站:<a href="https://wemsx.tk/"></a>(本文的首发位置)<br>最近正在努力的一个整合推广项目:<a href="https://cmpu.ml/">cmpu</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> minecraft </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Ubuntu正式投产</title>
       <link href="/posts/f752b1b6/"/>
       <url>/posts/f752b1b6/</url>
