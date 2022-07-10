@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>我居然网速能这么高</title>
+      <link href="/bf/761a7e315f41/"/>
+      <url>/bf/761a7e315f41/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/jp2022-05-01-17.46.40.png"></p><p>貌似有点亮，用暗黑才能看到。</p><p>今天把photoshop安装上了，但貌似用不太来……</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活日常 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>终于搭完小程序了</title>
+      <link href="/bf/43173241861c/"/>
+      <url>/bf/43173241861c/</url>
+      
+        <content type="html"><![CDATA[<p>不管怎么样，还是了结了一项心事。</p><span id="more"></span><p>嗯嗯，从头讲起吧。<br>很早之前我就对小程序有想法了，当时是玩了一些Flash小游戏，结果热血沸腾，突然就想写一个小游戏来自己玩。当时没成年都能过审，反正申请了测试号，然后望着开发工具，然后立刻就放弃了。不是意志不坚定，是当时没接触过什么开发的我真心搞不懂那些东西。</p><p>接着到了上周，偶然看到有博客讲把Hexo博客部署到小程序端。我当时想，这种思路倒是挺有意思的，就申请了个正式账号，试着来搭一搭。</p><p>我本以为弄了将近半年Node.js的项目怎么说都不应该很难吧。结果打开才知道，woc，它是…又不完全是html，而是wxml。反正这么一周下来没怎么动。当时我想，问题不大，反正是拿别人的模版来搭。结果愣是3个小时啥也没弄出来。最后发现是因为我网站没备案，微信不让访问。于是我又弄了一会wordpress，结果小程序没弄好倒把wordpress部署上了……</p><p>今天想了想，算了，退而求其次，那些giao级的东西咱暂时不配，但之后还是可以试试，毕竟文字API我之前还失败了那么久，是吧。于是翻了翻gitee，找到了这个模版，经过又是2个小时”不懈”奋斗，芜湖，好歹是打出来一个成形的了。<br><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/%E6%88%AA%E5%B1%8F2022-04-04.png"><br>至于公众号，还在考虑当中。这个小程序因为没用违规域名，应该过审就是时间问题。下一步的中心，还是看网站这边。因为线下的很多问题还没有解决，可能LuckyLand-NEXT开发真的要等5月中下旬才能继续了。惭愧惭愧。</p><p>因为我自己都是半懂不懂，建议诸位有小程序开发意向的新手先自己把wxml和wxss什么先自己看一看，还有，血与泪的教训，网站建议备案。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 开发 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>金色传说！wordpress！</title>
+      <link href="/bf/6389817bf715/"/>
+      <url>/bf/6389817bf715/</url>
+      
+        <content type="html"><![CDATA[<p>经过一下午不懈努力，终于白嫖到正式的Wordpress了。<br><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/%E6%88%AA%E5%B1%8F2022-04-03.png"><br>暂时不清楚稳定性，所以不会替代hexo。<br>但还是很高兴。因为我主要想拿来搞成小程序。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自己搭了个api</title>
+      <link href="/bf/a9a5bbb5d43b/"/>
+      <url>/bf/a9a5bbb5d43b/</url>
+      
+        <content type="html"><![CDATA[<p>最近貌似很忙，但又没做个啥。</p><p>咳咳，回到主题，我终于把自己的随机句子api搭好了，用vercel部署的。虽然有点慢，但效果不错。<br>（刷新后文字会变）</p><script type="text/javascript" src="https://oneword.wemsx.tk/api/index.php?format=js&charset=utf-8"></script><div id="oneword"><p><script type="text/javascript">oneword()</script></p></div><p>顺便又做了个图片版的。但速度更慢了……<br><img src="htpps://img.wemsx.tk/api/index.php" alt="刷新后图像会变"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这很令人啊这</title>
+      <link href="/bf/613cafa3bdcf/"/>
+      <url>/bf/613cafa3bdcf/</url>
+      
+        <content type="html"><![CDATA[<p>登上B站就给我发这些？！</p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/%E6%88%AA%E5%B1%8F2022-03-26%2022.09.40.png"></p><h3 id="好耶！"><a href="#好耶！" class="headerlink" title="好耶！"></a>好耶！</h3><p>然而依旧没有创作激励。<br>这周去挂了谷歌广告，但很明显，没什么用。</p><p>（貌似因为url里有空格博客识别不出来。。。懒得改了。）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 懵圈中 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>论在网页上玩MC</title>
+      <link href="/bf/9fc9f904725a/"/>
+      <url>/bf/9fc9f904725a/</url>
+      
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=682181462&bvid=BV1YU4y1o7VX&cid=547920544&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>自制视频连接：<a href="https://www.bilibili.com/video/BV1YU4y1o7VX">https://www.bilibili.com/video/BV1YU4y1o7VX</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> minecraft </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>哔哔点啥</title>
+      <link href="/bf/b2c656a76126/"/>
+      <url>/bf/b2c656a76126/</url>
+      
+        <content type="html"><![CDATA[<p>搞了好久的东西终于做出来了。<br>看看？<a href="https://wemsx.tk/bb">戳我</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>谷歌小恐龙刷新PB</title>
+      <link href="/bf/5d5d3e0787a8/"/>
+      <url>/bf/5d5d3e0787a8/</url>
+      
+        <content type="html"><![CDATA[<p>家里网不稳定，看到这个页面果断关网</p><span id="more"></span><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/google%E6%81%90%E9%BE%9920220215.png"></p><p>第一局…..才到500来，第二局终于有手感了，成功刷新个人PB。（此前是2043）<br>新创了一个页面记录各种PB，参见<a href="https://wemsx.tk/records">这里</a></p><p>别问我为什么整合没消息，问就是鸽掉了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活日常 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>昨天是情人节？</title>
+      <link href="/bf/3430cced2639/"/>
+      <url>/bf/3430cced2639/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://fastly.jsdelivr.net/gh/wemsx/imgcdn1/img/qrj.png"></p><p>(wemsx本人表示这么做很开心)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>情人节补档</title>
+      <link href="/bf/0cde6a70ac07/"/>
+      <url>/bf/0cde6a70ac07/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>今天是2022年2月14日，没错，是那个吃狗粮的日子，不过，西方情人节管我北方人什么事（狗头）。</p><hr><h1 id="对象是什么？"><a href="#对象是什么？" class="headerlink" title="对象是什么？"></a>对象是什么？</h1><p>  对象是人们要进行研究的任何事物，它不仅能表示具体的事物，还能表示抽象的规则、计划或事件。对象具有状态，一个对象用数据值来描述它的状态。对象还有操作，用于改变对象的状态，对象及其操作就是对象的行为。对象实现了数据和操作的结合，使数据和操作封装于对象的统一体中。</p><p>  类是具有相同特性（数据元素）和行为（功能）的对象的抽象就是类。因此，对象的抽象是类，类的具体化就是对象，也可以说类的实例是对象，类实际上就是一种数据类型。类具有属性，它是对象的状态的抽象，用数据结构来描述类的属性。类具有操作，它是对象的行为的抽象，用操作名和实现该操作的方法来描述。</p><p>  类与对象的关系就如模具和铸件的关系，类的实力化的结果就是对象，而对对象的抽象就是类，类描述了一组有相同特性（属性）和相同行为的对象。</p><hr><h1 id="藏匿在查找中的情话"><a href="#藏匿在查找中的情话" class="headerlink" title="藏匿在查找中的情话"></a>藏匿在查找中的情话</h1><p>  按 <code>ctrl+f </code>然后输入<code> 9</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">C</span><br><span class="line">99669999996669999996699666699666999966699666699</span><br><span class="line">99699999999699999999699666699669966996699666699</span><br><span class="line">99669999999999999996699666699699666699699666699</span><br><span class="line">99666699999999999966666999966699666699699666699</span><br><span class="line">99666666999999996666666699666699666699699666699</span><br><span class="line">99666666669999666666666699666669966996699666699</span><br><span class="line">99666666666996666666666699666666999966669999996</span><br></pre></td></tr></table></figure><h1 id="vbs脚本表白代码"><a href="#vbs脚本表白代码" class="headerlink" title="vbs脚本表白代码"></a>vbs脚本表白代码</h1><h2 id="做我女朋友非同意不可"><a href="#做我女朋友非同意不可" class="headerlink" title="做我女朋友非同意不可"></a>做我女朋友非同意不可</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">JAVASCRIPT</span><br><span class="line"></span><br><span class="line">msgbox (&quot;我有一件事想跟你说&quot;),vbQuestion,(&quot;在吗？&quot;)</span><br><span class="line">msgbox (&quot;自从第一天遇见你，我便对你难以忘怀了！&quot;)</span><br><span class="line">msgbox (&quot;做我女朋友好吗？&quot;)</span><br><span class="line">msgbox (&quot;房产写你名字&quot;)</span><br><span class="line">msgbox (&quot;保大&quot;)</span><br><span class="line">msgbox (&quot;我妈会游泳&quot;)</span><br><span class="line">dim j</span><br><span class="line">do while j&lt;1</span><br><span class="line">Select Case msgbox(&quot;做我女朋友好吗？&quot;,68,&quot;请郑重的回答我！&quot;)</span><br><span class="line">Case 6 j=1</span><br><span class="line">Case 7 msgbox(&quot;再给你一次机会&quot;)</span><br><span class="line">end Select</span><br><span class="line">loop</span><br><span class="line">msgbox(&quot;我就知道你会同意的，哈哈哈哈！！&quot;)</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/0084jMrLly1go9cic5ptag30r007ch4q.gif"></p><h2 id="做我女朋友不同意就关机"><a href="#做我女朋友不同意就关机" class="headerlink" title="做我女朋友不同意就关机"></a>做我女朋友不同意就关机</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">JAVASCRIPT</span><br><span class="line"></span><br><span class="line">msgbox(&quot;你不知道，这个代码我早已写好，直到今天才有勇气发给你。请你点击确定，耐心的看完！&quot;)</span><br><span class="line">msgbox(&quot;曾几何时，我一直以为自己是一艘船。木已成舟，不知何时靠岸？&quot;)</span><br><span class="line">msgbox(&quot;但自从遇到你，我的罗盘就开始不停地打转。&quot;)</span><br><span class="line">msgbox(&quot;我在海里徘徊，&quot;)</span><br><span class="line">msgbox(&quot;我在礁石附近游荡，&quot;)</span><br><span class="line">msgbox(&quot;最终，我还是搁浅在了你的岸边。&quot;)</span><br><span class="line">x=msgbox(&quot;我不想再孤独下去，做我女朋友吧!&quot;,VbOkCancel)</span><br><span class="line">if x=VbOk then</span><br><span class="line">msgbox(&quot;谢谢你的信任,我会一直好好爱护你&quot;)</span><br><span class="line">elseif x=VbCancel then</span><br><span class="line">msgbox(&quot;祝你幸福，相濡以沫不如相忘于江湖!&quot;)</span><br><span class="line">msgbox(&quot;电脑将会关机，再见!&quot;)</span><br><span class="line">set ws=createobject(&quot;wscript.shell&quot;)</span><br><span class="line">ws.run&quot;cmd.exe /c shutdown -s -f -t 0&quot;</span><br><span class="line">end if</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20210214000007259.gif"></p><h2 id="做我女朋友，即使不同意因为更爱你所以撤销关机"><a href="#做我女朋友，即使不同意因为更爱你所以撤销关机" class="headerlink" title="做我女朋友，即使不同意因为更爱你所以撤销关机"></a>做我女朋友，即使不同意因为更爱你所以撤销关机</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">JAVASCRIPT</span><br><span class="line"></span><br><span class="line">Set Seven = WScript.CreateObject(&quot;WScript.Shell&quot;)</span><br><span class="line">strDesktop = Seven.SpecialFolders(&quot;AllUsersDesktop&quot;)</span><br><span class="line">set oShellLink = Seven.CreateShortcut(strDesktop &amp; &quot;\\Seven.url&quot;)</span><br><span class="line">oShellLink.Save</span><br><span class="line">se_key = (MsgBox(&quot;我喜欢你很久了，你可以做我女朋友吗 是=同意 否=拒绝 &quot;,4,&quot;我没有开玩笑！！！&quot;))</span><br><span class="line">If se_key=6 Then</span><br><span class="line">MsgBox &quot;谢谢你给了我这次机会，I Love You&quot;,64,&quot;Love you&quot;</span><br><span class="line">Else</span><br><span class="line">seven.Run &quot;shutdown.exe -s -t 600&quot;</span><br><span class="line">agn=(MsgBox (&quot;我真的很喜欢你！求你了，别拒绝我，好吗？是=同意 否=拒绝&quot;,4,&quot;别拒绝我，好吗？&quot;))</span><br><span class="line">If agn=6 Then</span><br><span class="line">seven.Run &quot;shutdown.exe -a&quot;</span><br><span class="line">MsgBox &quot;谢谢你给了我这次机会，I Love You&quot;,,&quot;Love you&quot;</span><br><span class="line">WScript.Sleep 500</span><br><span class="line">Else</span><br><span class="line">MsgBox &quot;唉，那祝你能找到自己喜欢的人，若可回头,记住,我在你身后一直等你！--爱你的人&quot;,64,&quot;祝你幸福！！&quot;</span><br><span class="line">seven.Run &quot;shutdown.exe -a&quot;</span><br><span class="line">MsgBox &quot;其实你拒绝了我，我也不会关你电脑的！因为你是我最重要的人，我不会捉弄你的！&quot;,64,&quot;我愿意等你！&quot;</span><br><span class="line">End If</span><br><span class="line">End If</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20210213235258638.gif"></p><h2 id="爱情测试"><a href="#爱情测试" class="headerlink" title="爱情测试"></a>爱情测试</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">JAVASCRIPT</span><br><span class="line"></span><br><span class="line">const title = &quot;爱情测试&quot;</span><br><span class="line">const yourname = &quot;王冰冰&quot;</span><br><span class="line">const question = &quot;你最喜欢的人是谁？请在下面的方框中输入他（她）的名字。&quot;</span><br><span class="line">const info = &quot;你在说谎！不要逃避，实话实说。&quot;</span><br><span class="line">const scend = &quot;你说出了你的心扉，那就向他（她）表白吧。&quot;</span><br><span class="line">dim youranswer</span><br><span class="line">do</span><br><span class="line">youranswer = inputbox(question, title)</span><br><span class="line">if youranswer &lt;&gt; yourname then msgbox info, vbinformation+vbokonly, title</span><br><span class="line">loop until youranswer = yourname</span><br><span class="line">msgbox scend, vbinformation+vbokonly, title</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20210213235335754.gif"></p><h2 id="求对象原谅"><a href="#求对象原谅" class="headerlink" title="求对象原谅"></a>求对象原谅</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">JAVASCRIPT</span><br><span class="line"></span><br><span class="line">msgbox&quot;亲爱的不要生气了好不好&quot;</span><br><span class="line">msgbox&quot;我已经深刻的认识到自己的错误了&quot;</span><br><span class="line">msgbox&quot;但请相信我，我并不是有意的&quot;</span><br><span class="line">msgbox&quot;能原谅我吗？亲爱的。&quot;</span><br><span class="line">dim i</span><br><span class="line">do while i&lt;1</span><br><span class="line">Select Case msgbox(&quot;如果原谅我了请点是&quot;,68,&quot;&quot;)</span><br><span class="line">Case 6 i=1</span><br><span class="line">Case 7</span><br><span class="line">msgbox&quot;你再考虑一下呗，我向你保证，以后绝对不会再犯了！&quot;</span><br><span class="line">end Select</span><br><span class="line">loop</span><br><span class="line">msgbox&quot;谢谢亲爱的你原谅我，mua~&quot;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20210213235407742.gif">)</p><hr><h1 id="vbs脚本使用教程"><a href="#vbs脚本使用教程" class="headerlink" title="vbs脚本使用教程"></a>vbs脚本使用教程</h1><h2 id="在桌面上创建一个新的文本文档-后缀名为-txt"><a href="#在桌面上创建一个新的文本文档-后缀名为-txt" class="headerlink" title="在桌面上创建一个新的文本文档 后缀名为.txt"></a>在桌面上创建一个新的文本文档 后缀名为.txt</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/6de5c1e3376c438a8c1b1cdb2e46fcab.png"></p><h2 id="打开文本文件，拷贝我给的代码。"><a href="#打开文本文件，拷贝我给的代码。" class="headerlink" title="打开文本文件，拷贝我给的代码。"></a>打开文本文件，拷贝我给的代码。</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/297766853c6fe46da329c48337538029.png"></p><h2 id="文件另存为，选择路径。"><a href="#文件另存为，选择路径。" class="headerlink" title="文件另存为，选择路径。"></a>文件另存为，选择路径。</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/26cc8373278c81cf83727f1c6d0bdb32.png"></p><h2 id="将文件的后缀名改成-vbs，前面的名字任取-将编码格式改成ANSI编码！"><a href="#将文件的后缀名改成-vbs，前面的名字任取-将编码格式改成ANSI编码！" class="headerlink" title="将文件的后缀名改成.vbs，前面的名字任取,将编码格式改成ANSI编码！"></a>将文件的后缀名改成.vbs，前面的名字任取,将编码格式改成ANSI编码！</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/a118f505604688c9a1dd96ab6fbc1523.png"></p><h2 id="双击vbs文件运行即可。"><a href="#双击vbs文件运行即可。" class="headerlink" title="双击vbs文件运行即可。"></a>双击vbs文件运行即可。</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/02819528c567d10c1d4de97cbc75c80b.png"></p><h2 id="强制关闭，ctrl-shift-esc打开任务管理器关闭进程即可。"><a href="#强制关闭，ctrl-shift-esc打开任务管理器关闭进程即可。" class="headerlink" title="强制关闭，ctrl+shift+esc打开任务管理器关闭进程即可。"></a>强制关闭，ctrl+shift+esc打开任务管理器关闭进程即可。</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20210214114415298.jpg"></p><hr><h1 id="C语言表白代码"><a href="#C语言表白代码" class="headerlink" title="C语言表白代码"></a>C语言表白代码</h1><h2 id="I-LOVE-U"><a href="#I-LOVE-U" class="headerlink" title="I LOVE U"></a>I LOVE U</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br></pre></td><td class="code"><pre><span class="line">C</span><br><span class="line"></span><br><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;math.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">float y, x, z;</span><br><span class="line"></span><br><span class="line">printf(&quot;那一天\n&quot;);</span><br><span class="line">printf(&quot;第一次遇见你\n&quot;);</span><br><span class="line">printf(&quot;忘不了\n&quot;);</span><br><span class="line">printf(&quot;你的容颜\n&quot;);</span><br><span class="line">printf(&quot;若轻云之蔽月,如流风之回雪\n&quot;);</span><br><span class="line">printf(&quot;\n\n\n&quot;);</span><br><span class="line">printf(&quot;其实\n&quot;);</span><br><span class="line">printf(&quot;有一句话\n&quot;);</span><br><span class="line">printf(&quot;我一直想对你说:\n&quot;);</span><br><span class="line"></span><br><span class="line">for (double y = 2.5; y &gt;= -1.6; y = y - 0.2)</span><br><span class="line">&#123;</span><br><span class="line">for (double x = -3; x &lt;= 4.8; x = x + 0.1)</span><br><span class="line">&#123;</span><br><span class="line">(pow((x * x + y * y - 1), 3) &lt;= 3.6 * x * x * y * y * y</span><br><span class="line">|| (x &gt; -2.4 &amp;&amp; x &lt; -2.1 &amp;&amp; y&lt;1.5 &amp;&amp; y&gt;-1)</span><br><span class="line">|| (((x &lt; 2.5 &amp;&amp; x&gt;2.2) || (x &gt; 3.4 &amp;&amp; x &lt; 3.7)) &amp;&amp; y &gt; -1 &amp;&amp; y &lt; 1.5)</span><br><span class="line">|| (y &gt; -1 &amp;&amp; y &lt; -0.6 &amp;&amp; x &lt; 3.7 &amp;&amp; x&gt;2.2)) ? printf(&quot;*&quot;) : printf(&quot; &quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">getchar();</span><br><span class="line">&#125;</span><br><span class="line">C</span><br><span class="line"></span><br><span class="line">那一天</span><br><span class="line">第一次遇见你</span><br><span class="line">忘不了</span><br><span class="line">你的容颜</span><br><span class="line">若轻云之蔽月,如流风之回雪</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">其实</span><br><span class="line">有一句话</span><br><span class="line">我一直想对你说:</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">      ***           *****           *****           ***         ***</span><br><span class="line">      ***         **********     **********         ***         ***</span><br><span class="line">      ***        ************* *************        ***         ***</span><br><span class="line">      ***        ***************************        ***         ***</span><br><span class="line">      ***        ***************************        ***         ***</span><br><span class="line">      ***         *************************         ***         ***</span><br><span class="line">      ***          ***********************          ***         ***</span><br><span class="line">      ***           *********************           ***         ***</span><br><span class="line">      ***            *******************            ***         ***</span><br><span class="line">      ***              ***************              ***         ***</span><br><span class="line">      ***                ***********                ***         ***</span><br><span class="line">      ***                   *****                   ***************</span><br><span class="line">      ***                     *                     ***************</span><br></pre></td></tr></table></figure><h2 id="我真挚的心"><a href="#我真挚的心" class="headerlink" title="我真挚的心"></a>我真挚的心</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br></pre></td><td class="code"><pre><span class="line">C</span><br><span class="line"></span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;math.h&gt;</span><br><span class="line">#include &lt;stdlib.h&gt;</span><br><span class="line">#include &lt;string.h&gt;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    char answer[4];</span><br><span class="line">    printf(&quot;遇到你\n我才发现\n曾经所有的条件\n似乎都成了我等你的借口\n\n&quot;);</span><br><span class="line">    printf(&quot;我对你的感情已经决堤\n所以\n请允许我，从今往后映入你\n明媚的眼\n&quot;);</span><br><span class="line">    printf(&quot;我\n想和你\n耳鬓厮磨，相濡以沫！\n\n&quot;);</span><br><span class="line">    printf(&quot;答应我吧！\n\n输入yes,你可以看到我的真心!\n\n&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, &amp;answer);</span><br><span class="line"></span><br><span class="line">    float y, x, z, f;</span><br><span class="line">    for (y = 1.5f; y &gt; -1.5f; y -= 0.1f)</span><br><span class="line">    &#123;</span><br><span class="line">        for (x = -1.5f; x &lt; 1.5f; x += 0.05f)</span><br><span class="line">        &#123;</span><br><span class="line">            z = x * x + y * y - 1;</span><br><span class="line">            f = z * z * z - x * x * y * y * y;</span><br><span class="line">            putchar(f &lt;= 0.0f ? &quot;*********&quot;[(int)(f * -8.0f)] : &#x27; &#x27;);</span><br><span class="line">        &#125;</span><br><span class="line">        putchar(&#x27;\n&#x27;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    long time;</span><br><span class="line">    for (; ;)</span><br><span class="line">    &#123;</span><br><span class="line">        system(&quot;color a&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color b&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color c&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color d&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color e&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color f&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color 0&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color 1&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color 2&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color 3&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color 4&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color 5&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color 6&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color 7&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color 8&quot;);</span><br><span class="line">        for (time = 0; time &lt; 99999999; time++);</span><br><span class="line">        system(&quot;color 9&quot;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line">C</span><br><span class="line"></span><br><span class="line">遇到你</span><br><span class="line">我才发现</span><br><span class="line">曾经所有的条件</span><br><span class="line">似乎都成了我等你的借口</span><br><span class="line"></span><br><span class="line">我对你的感情已经决堤</span><br><span class="line">所以</span><br><span class="line">请允许我，从今往后映入你</span><br><span class="line">明媚的眼</span><br><span class="line">我</span><br><span class="line">想和你</span><br><span class="line">耳鬓厮磨，相濡以沫！</span><br><span class="line"></span><br><span class="line">答应我吧！</span><br><span class="line"></span><br><span class="line">输入yes,你可以看到我的真心!</span><br><span class="line"></span><br><span class="line">yes</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">                *********           *********</span><br><span class="line">            *****************   *****************</span><br><span class="line">           ****************************************</span><br><span class="line">         *******************************************</span><br><span class="line">        *********************************************</span><br><span class="line">        *********************************************</span><br><span class="line">        *********************************************</span><br><span class="line">        *********************************************</span><br><span class="line">        *********************************************</span><br><span class="line">        *********************************************</span><br><span class="line">         *******************************************</span><br><span class="line">          *****************************************</span><br><span class="line">           ****************************************</span><br><span class="line">            *************************************</span><br><span class="line">             ***********************************</span><br><span class="line">              *********************************</span><br><span class="line">                *****************************</span><br><span class="line">                  *************************</span><br><span class="line">                    *********************</span><br><span class="line">                       ***************</span><br><span class="line">                          *********</span><br><span class="line">                             ***</span><br></pre></td></tr></table></figure><hr><h1 id="web网页表白程序"><a href="#web网页表白程序" class="headerlink" title="web网页表白程序"></a>web网页表白程序</h1><p>  网页表白制作可以参考下这位大佬的博客，写的很好！<a href="https://blog.csdn.net/wuxia2001/article/details/88651009">点我</a></p><hr><h1 id="代码情话"><a href="#代码情话" class="headerlink" title="代码情话"></a>代码情话</h1><h2 id="你的一句明天见，偷走了我整晚的睡眠"><a href="#你的一句明天见，偷走了我整晚的睡眠" class="headerlink" title="你的一句明天见，偷走了我整晚的睡眠"></a>你的一句明天见，偷走了我整晚的睡眠</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/2fb41a10dcd8a702fed9539249ea6696.png"></p><hr><h2 id="意见一致的时候听我的，不同的时候听女朋友的"><a href="#意见一致的时候听我的，不同的时候听女朋友的" class="headerlink" title="意见一致的时候听我的，不同的时候听女朋友的"></a>意见一致的时候听我的，不同的时候听女朋友的</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/3c07b6b217dc969e21514b4e37201777.png"></p><hr><h2 id="山无陵，-江水为竭，-冬雷震震，-夏雨雪，-天地合，-乃敢与君绝！"><a href="#山无陵，-江水为竭，-冬雷震震，-夏雨雪，-天地合，-乃敢与君绝！" class="headerlink" title="山无陵， 江水为竭， 冬雷震震， 夏雨雪， 天地合， 乃敢与君绝！"></a>山无陵， 江水为竭， 冬雷震震， 夏雨雪， 天地合， 乃敢与君绝！</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/9a29e6c0ccb5c0b795e944d556f32266.png"></p><hr><h2 id="春风十里不如你"><a href="#春风十里不如你" class="headerlink" title="春风十里不如你"></a>春风十里不如你</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20210214001651519.png"></p><hr><h2 id="直到死之前，每天爱你多一点"><a href="#直到死之前，每天爱你多一点" class="headerlink" title="直到死之前，每天爱你多一点"></a>直到死之前，每天爱你多一点</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/4e022780e607fd463fe7c6bc8ec7444d.png"></p><hr><h2 id="没有你，我就没办法对世界说”你好”"><a href="#没有你，我就没办法对世界说”你好”" class="headerlink" title="没有你，我就没办法对世界说”你好”"></a>没有你，我就没办法对世界说”你好”</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/6d540fa19a6e8d363f96179fd2bcf567.png"></p><hr><h2 id="如果你觉的我是一个有趣的人，我想那是最好不过的了"><a href="#如果你觉的我是一个有趣的人，我想那是最好不过的了" class="headerlink" title="如果你觉的我是一个有趣的人，我想那是最好不过的了"></a>如果你觉的我是一个有趣的人，我想那是最好不过的了</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/fe47ceaee7bd4dbf256de33a3827dc8c.png"></p><hr><h2 id="清醒点，别做梦了"><a href="#清醒点，别做梦了" class="headerlink" title="清醒点，别做梦了"></a>清醒点，别做梦了</h2><p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20210214001724309.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活日常 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MCjava也有成长守护？</title>
+      <link href="/bf/991b9f516593/"/>
+      <url>/bf/991b9f516593/</url>
+      
+        <content type="html"><![CDATA[<p>进来看看？</p><span id="more"></span><p>玩网易？不用听我BB了，反正网易看了也没用。<br>2017年二月，国家对“未成年人网络游戏防沉迷”问题做出相应指示，在国务院法制办官网公布的《未成年人网络保护条例(送审稿)》当中，第23条就明确规定“禁止未成年人在每日的0：00至8：00期间使用网络游戏服务”<br>以腾讯为例，从2017年2月16日起上线了成长守护系统，其他公司也接连推出了类似的“服务”。起初问题不大，毕竟限制较少。但2021年月30日国家新闻出版署下发《关于进一步严格管理 切实防止未成年人沉迷网络游戏的通知》，堪称史上最严游戏监管令。内容不必多说，虽然就个人而言，我并不认为它起了充分的效果。当时想着其实破解方法不少，比如玩玩单机，玩玩国际服等，结果借了个小盆友的手机看了看，基本市场上主流的游戏都要求实名认证(但是否是真正的实名还是只需要随便填几位数字这就不知道了，毕竟拿着别人的手机)。然后我就觉得，未成年人之后要么遵守规定，就玩那每周两小时，要么选择用家长的身份证，要么，也就引出了今天的主题，玩玩某些不被监管的游戏，比如Minecraft JE。<br>先说明，其实不管BE还是JE，都不需要实名，但都需要买（JE非官方启动器除外）。所以可以说门槛相对网易更高。</p><p>说回成长守护。就在最新的22w06a快照中，我们可以看到这样一段<br><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/%E9%98%B2%E6%B2%89%E8%BF%B722w06a.png"><br>也就是说，韩国玩家将面临防沉迷。当然，毕竟是BugJump，我们可以翻翻图中的FAQ，可以看到如下<br>![](<a href="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/%E6%88%AA%E5%B1%8F2022-02-13">https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/截屏2022-02-13</a> 18.34.15.png)<br>原文当然不是中文，但也可以发现，其实我标题党了，这个系统并没有国内限制那么死，但个人认为下面关于Xbox的内容更有意思，大致就是让家长可以控制部分功能。<br>总体来说，上面说的全是废话，但还有一点，就是它会不会移植入中国地区的版本。引用论坛大佬的观点，它多半不会，因为当时网易是中国地区全版本代理，那么在这些与BugJump核心业务无关的东西他们也多半不会管。那么这样看来反而中国地区不太可能被防沉迷，而且，谁不愿意凡尔赛一下自己玩十多个小时还挖不到钻石的非酋经历呢？</p><p>如果有什么说得不合适或者说错了的，欢迎大指正。</p><p>最后打个广告，我自己的网站:<a href="https://wemsx.tk/"></a>(本文的首发位置)<br>最近正在努力的一个整合推广项目:<a href="https://cmpu.ml/">cmpu</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> minecraft </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Ubuntu正式投产</title>
+      <link href="/bf/62622deed1ed/"/>
+      <url>/bf/62622deed1ed/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20220124202516.jpg"><br>预计明天开始恢复开发工作。明天见！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> OS </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MAC软件推荐(一)</title>
+      <link href="/bf/8b274b6b928d/"/>
+      <url>/bf/8b274b6b928d/</url>
+      
+        <content type="html"><![CDATA[<p>整合在做啦！今天氵个博客，讲讲我平时常用的MAC软件。</p><span id="more"></span><h2 id="1-写作：Typora"><a href="#1-写作：Typora" class="headerlink" title="1.写作：Typora"></a>1.写作：Typora</h2><p>作为一个markdown软件，Typora可以说是集大成者，包括了几乎所有常用的功能<br>像各种语法<br><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20220127221202.jpg"><br>还有公式<br><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20220127221224.jpg"><br>同时，Typora还支持和各个图床软件联动<br><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20220127221624.jpg"><br>而且Typora还内置支持多个主题，个人感觉非常满意。<br>可惜在1.0以后要付费才能使用，所以建议使用0.11.18并关闭更新，当然，支持开发者页能催更出更多好功能。</p><a href="%E5%AE%98%E7%BD%91::https://typora.io/::https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets@master/logo/256/safari.png" title="" target=""></a>（p.s.:打不开别勉强，我也打不开）<p>支持win和mac</p><h2 id="2-下载软件：Xdown"><a href="#2-下载软件：Xdown" class="headerlink" title="2.下载软件：Xdown"></a>2.下载软件：Xdown</h2><p>这个应该比较广泛了吧？毕竟免费还好用的MAC下载软件貌似不是特别多。<br><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20220127224328.jpg"><br>功能比较完全，包括了BT做种与下载，http(s)下载，还支持从浏览器接力下载。同时也支持自定义http头，也就是可以用来下载一些网盘直链。唯一不足就是作者已经“好久”不更新了……还经常下载BT卡住……<br>总的来说，还是值得下载的。</p><a href="%E5%AE%98%E7%BD%91::https://www.xdown.org/::https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets@master/logo/256/safari.png" title="" target=""></a><p>支持win和mac</p><h2 id="3-图床软件：picgo"><a href="#3-图床软件：picgo" class="headerlink" title="3.图床软件：picgo"></a>3.图床软件：picgo</h2><p>同样不用多说，图床神器，支持多家图床。<br><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/20220128222749.jpg"><br>虽然内存占的有点多了(毕竟我一共就4G RAM)，但毕竟是一个活在任务栏里的软件，所以还是可以接受滴。<br>这个软件我最喜欢的功能就是自定义图床，支持sm.ms，阿里云OSS，腾讯云COS，七牛云，又拍云，Imgur及GitHub图床。而且可以自行在官方的repo里找插件。总体功能比较完全。尤其是它可以以markdown，html等格式直接复制图片连接，搭配一个图床效率直接起飞！虽然用github图床有时候上传不起……<br>支持win，mac和linux（甚至还有手机版和支持VSC的插件版）</p><h2 id="4-办公：Microsoft-365-原office365-amp-apple三件套"><a href="#4-办公：Microsoft-365-原office365-amp-apple三件套" class="headerlink" title="4.办公：Microsoft 365(原office365) &amp; apple三件套"></a>4.办公：Microsoft 365(原office365) &amp; apple三件套</h2><p>office同样也不必多说了，懂得都懂。除了要花rmb外个人觉得没什么大问题。只是内存稍稍有点大……大概4个G左右。我删了excel和onedrive稍微好点。(Google chrome亮眼)<br><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/MS365ls.png"><br>可能用比较新的电脑的人应该没什么概念，但我这个渣机真扛不住（一共只有128G），外加我个人比较强迫症，所以找到了部分替代品：apple自己的办公软件:keynote（对应PPT），Pages（对应word），Numbers（对应excel）。相对而言内存占用小，速度快。而且重要的是保留了更多核心功能，减少了花里胡哨的东西。当然，缺点就是如果想在win上看这几个软件弄出来的文件必须在原来电脑上先导出。比如Pages兼容.docx，但word不兼容.pages……<br>同时，MS的东西上传onedrive，Apple的东西上传Icloud，这一切怎么这么相似？<br>貌似最近office和apple三件套都出网页免费版了。<br>忘说了，apple三件套此前只需要有Mac系统，完全免费。<br>MS 365也不是一定要交钱，可以用office网页版试一试。<br>至于为什么不推荐WPS，我不明白为什么WPS启动这么慢……而且不开会员限制有点多。</p><p>今天的内容先到这里吧。我是wemsx，敬请期待。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> OS </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的博客白嫖思路</title>
+      <link href="/bf/d51cdb15fd37/"/>
+      <url>/bf/d51cdb15fd37/</url>
+      
+        <content type="html"><![CDATA[<p>记录一下我一直以来白嫖到的那些东西。</p><span id="more"></span><h2 id="1-域名"><a href="#1-域名" class="headerlink" title="1.域名"></a>1.域名</h2><p>最开始想建博客，主要是看MCBBS的BBcode不爽，然后就没了。当时就萌生出了自己建站的想法。不得不说，想法很美好，现实很果敢。我因为某些原因没法去买国内的域名和服务器。经过10多个小时的百度后，发现了了这个东西：</p><a href="freenom::https://www.freenom.com::https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets@master/logo/256/safari.png" title="" target=""></a><p>可以免费申请.tk&#x2F;.ml&#x2F;.ga&#x2F;.gq&#x2F;.cf<br>然后顿时就心动了，当天挂代理搞了一下午，然后连续莫名其妙被取消。再次百度后才知道，用代理反而不如用header edit修改请求头，然后这么干了，然后白嫖到域名wemsx.tk<br>接着马上在腾讯云下属DNSPOD挂解析。一路顺利，而且因为域名和服务器在国外不用备案。申请SSL也是免费的。关键腾讯云还可以免费申请企业邮箱，略微有点麻烦，更习惯qq</p><h2 id="2-托管-x2F-服务器"><a href="#2-托管-x2F-服务器" class="headerlink" title="2.托管&#x2F;服务器"></a>2.托管&#x2F;服务器</h2><p>无需多言，当初也是看中github的pages托管才入的坑。<br>这里提醒一下，bitbucket的托管貌似不能自定义域名，gitlab要信用卡实名认证，gitee要身份证实名。<br>所以，我还可以选择他们的集大成者： vercel</p><a href="vercel::https://www.vercel.com::https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets@master/logo/256/safari.png" title="" target=""></a><p>vercel是一个托管平台，建议github登陆，可以直接关联github仓库。<br>个人使用是永久免费，其他的貌似也用不到。并且也支持自定义域名。更多可以看网上教程和官方文档。</p><h2 id="3-博客框架"><a href="#3-博客框架" class="headerlink" title="3.博客框架"></a>3.博客框架</h2><p>最开始用jekyll，可以直接在github的Web端操作。给了我2天的快乐。后面发现发文章很麻烦，加上github长期不稳定，就最后放弃了jekyll。<br>最开始看到hexo，是在百度上无意中发现的，貌似就是默认的landspacce，当时觉得不咋地，就选择了jekyll。从jekyll退下后，便又回来了。hexo的安装让我很伤脑筋，又在一个下午的奋斗后，我完成了安装工作。最开始用的是NEXT，也是我用jekyll时的一个主题。用了一周以后，感觉有点单调，再加上不小心搞废了，于是果断放弃，翻了翻官网，最终选择了volantis。<br>volantis的风格我很喜欢，在一番大改以后，虽然基本没有改变原来的样子，但已经基本达到我心中对自己网站的设想了。<br>并且在一段时间的摸索后，我也自己添加了看板娘，twikoo等好玩的东西。</p><h2 id="4-其他"><a href="#4-其他" class="headerlink" title="4.其他"></a>4.其他</h2><p>感谢MongoDB，让我免费部署了twikoo。<br>感谢Typora,为我提供了写博客的工具。<br>感谢腾讯云,为我提供了域名解析与SSL。<br>感谢Volantis的开发者们，创造了这么优秀的一款主题。<br>感谢JSDeliver，为我提供全站文件的CDN。<br>感谢LeanCloud &amp; 不蒜子，为我提供网站统计。<br>最后，感谢每一位直接或间接为我提供帮助与鼓励的人，谢谢你们，让我有信心追逐自己的梦想。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git使用心得+简单教程</title>
+      <link href="/bf/c27d5af269a3/"/>
+      <url>/bf/c27d5af269a3/</url>
+      
+        <content type="html"><![CDATA[<p>突然心血来潮想写写我在平时用git的心得</p><span id="more"></span><p>其他不废话了。本篇立足于MAC 12.0</p><h2 id="简单教程"><a href="#简单教程" class="headerlink" title="简单教程"></a>简单教程</h2><h3 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git version 2.30.1 (Apple Git-130)</span><br></pre></td></tr></table></figure><p>苹果自带git，其余系统貌似需要自己安装。不多赘述。<br>SSH默认你已经配好了。我也实在不想写这个了。</p><h3 id="上传文件"><a href="#上传文件" class="headerlink" title="上传文件"></a>上传文件</h3><p>在github&#x2F;gitee&#x2F;bitbucket&#x2F;gitlab等平台创建仓库后，先在本地切到对应目录<br>比如我的minecraft文件在&#x2F;Library&#x2F;Application Support&#x2F;minecraft<br>则在终端运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd Library</span><br><span class="line">cd &quot;Application Support&quot;</span><br><span class="line">cd minecraft</span><br></pre></td></tr></table></figure><p>可以看到引号不是必加的。但对于中间有空格的文件夹，不加就会切到错误的文件夹。<br>然后如果要上传整个文件夹，那么运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure><p>进行初始化<br>然后</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br></pre></td></tr></table></figure><p>注意add后面有一个空格和一个句号！！！<br>接着</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit -m &quot;提交的信息&quot;</span><br></pre></td></tr></table></figure><p>如果对于文件夹是初次提交，那么</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin 仓库地址</span><br></pre></td></tr></table></figure><p>最后</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure><p>其中master是主分支，你当然可以上传到别的分支</p><h3 id="可能的故障"><a href="#可能的故障" class="headerlink" title="可能的故障"></a>可能的故障</h3><p>如果出现fatal: remote origin already exists</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote rm origin</span><br></pre></td></tr></table></figure><p>再重新git remote add….</p><p>如果出现SSL相关问题，个人认为是人品问题，建议重来或挂代理</p><h3 id="克隆别人的仓库"><a href="#克隆别人的仓库" class="headerlink" title="克隆别人的仓库"></a>克隆别人的仓库</h3><p>直接</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone 仓库位置</span><br></pre></td></tr></table></figure><p>注意是保存在当前切到的文件夹下</p><h3 id="非官方的应用"><a href="#非官方的应用" class="headerlink" title="非官方的应用"></a>非官方的应用</h3><h4 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h4><p>使用hexo-deployer-git</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>并按照官方文档修改博客（不是主题的）_config.yml<br><a href="https://hexo.io/zh-cn/docs/one-command-deployment">官方文档</a><br>之后每次部署均可hexo d解决</p><h4 id="各种git"><a href="#各种git" class="headerlink" title="各种git"></a>各种git</h4><p>怎么说呢，主要就是个人喜好的问题吧。我在用sublime merge和vsc自带的git,再加上终端基本没什么大问题。</p><h2 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h2><p>众所周知，github的访问速度令人难受，再加上网页版上传文件限制多，然后我就走上了git的道路。<br>n久以前，我为了托管项目源代码曾经有过用git的想法。结果不知道因为什么没找到合适教程，然后就放弃了。<br>对，很草率。<br>不久前因为hexo的原因又研究了一下，结果就开始用了。<br>git给我的第一感受就是方便。绑定了SSH后基本上随便搞。而且基本么有限制。</p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/gitbuchonggai.png::alt=%E7%BB%88%E7%AB%AF%E7%9A%84%E4%B8%80%E4%B8%AA%E6%88%AA%E5%9B%BE" class=""><p>图为我上传整个整合文件夹的盛况。关键一共才不到3分钟<br>当然缺点还是有的，那就是网络问题。<br>怎么说呢，还是挺喜欢的。（写不下去了）</p><p>哪个英文字母最酷？ <span class="hide-inline"><button type="button" class="hide-button" style="">#fff  </button><span class="hide-content">（对，这就是我不更新的理由）#FF7242</span></span></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 开发 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>整合重做week-4</title>
+      <link href="/bf/fc5f1f07ce30/"/>
+      <url>/bf/fc5f1f07ce30/</url>
+      
+        <content type="html"><![CDATA[<p>本周继续无更新。<br>本周主要修改了一下网站，并开始为FTB在线下做策划。<br>由于我这边线下的一些事情，可能会导致接下来几周的更新频率低。<br>在此深表歉意。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 整合 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>win11安装成功</title>
+      <link href="/bf/5b252e7b4b76/"/>
+      <url>/bf/5b252e7b4b76/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/wemsx/imgcdn1/img/win11.png"></p><p>整合本周无更新。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> OS </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>整合重做Week.3</title>
+      <link href="/bf/862edcd5957e/"/>
+      <url>/bf/862edcd5957e/</url>
+      
+        <content type="html"><![CDATA[<p>各位非酋们(划掉)欧皇们好，这里是wemsx。我继续来通报本周重做进度。这将会成为每周的常态。</p><p>但本周忙，没有过多时间来理会整合。不过还是很努力的加入了<code>大量</code>的新优化模组。</p><p>现在已达到74mods，而且还在增加。更改了战斗机制。将在下周起着手科技&#x2F;玩法向模组添加与魔改。</p><p>敬请期待。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 整合 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>整合重做week2</title>
+      <link href="/bf/3c371f1e58fe/"/>
+      <url>/bf/3c371f1e58fe/</url>
+      
+        <content type="html"><![CDATA[<p>各位欧皇们好，这里无二继续带来幸运方块大陆重制计划第二周的情况。</p><p>我这周主要对<a href="wemsx.tk">官网</a>进行了修改，并添加了一些小元素。</p><p>对于整合，我加入了基本需要的所有魔改向模组，但主题玩法还在设计中，所以没有加入太多玩法向模组。已经开始着手FTB任务了，此后我尽量每周进行一次开发版更新并发布告示。</p><p>之后官网应该会更精彩，整合也要加油！</p><p>敬请期待</p><p>评论功能已开通，请自重。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 整合 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>重做整合的第一天</title>
+      <link href="/bf/8fc6836b59f7/"/>
+      <url>/bf/8fc6836b59f7/</url>
+      
+        <content type="html"><![CDATA[<p>今天简单做了主要模组筛选。本次3.0更新将颠覆此前的许多设定及模组，所以耗时会非常长。敬请等待！</p><p>预告：</p><p>1.将加入化学向模组并调整开局任务。</p><p>2.FTB任务将80%以上重做。</p><p>3.将颠覆大量模组。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 整合 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>

@@ -1,0 +1,265 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>wemsx</title><meta name="author" content="wemsx"><meta name="copyright" content="wemsx"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="我的技术栈">
+<meta property="og:type" content="website">
+<meta property="og:title" content="wemsx">
+<meta property="og:url" content="http://wemsx.top/bf/page/2/index.html">
+<meta property="og:site_name" content="wemsx">
+<meta property="og:description" content="我的技术栈">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="wemsx">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/bf/img/favicon.png"><link rel="canonical" href="http://wemsx.top/bf/page/2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/bf/css/index.css"><link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.com/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/bf/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://unpkg.com/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://unpkg.com/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'wemsx',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-06-19 13:54:29'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" type="text/css" href="https://fastly.jsdelivr.net/gh/wemsx/wemsx-static@master/butterfly/css/universe.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper/swiper/swiper.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper/swiper/swiperstyle.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+<style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
+  white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.2.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/bf/archives/"><div class="headline">文章</div><div class="length-num">20</div></a></div><div class="data-item"><a href="/bf/tags/"><div class="headline">标签</div><div class="length-num">0</div></a></div><div class="data-item"><a href="/bf/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/bf/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/bf/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/bf/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/bf/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 哔哔</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/bf/../bb/"><span> bbtalk</span></a></li><li><a class="site-page child" href="/bf/../speak/"><span> Ispeak</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://drive.wemsx.tk"><i class="fa-fw fas fa-cloud-download-alt"></i><span> 网盘</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background: transparent"><nav id="nav"><span id="blog_name"><a id="site-name" href="/bf/">wemsx</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/bf/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/bf/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/bf/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/bf/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 哔哔</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/bf/../bb/"><span> bbtalk</span></a></li><li><a class="site-page child" href="/bf/../speak/"><span> Ispeak</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://drive.wemsx.tk"><i class="fa-fw fas fa-cloud-download-alt"></i><span> 网盘</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">wemsx</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout hide-aside" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/bf/991b9f516593/" title="MCjava也有成长守护？"><img class="post_bg" src="/bf/img/l/j.png" onerror="this.onerror=null;this.src='/bf/img/404.jpg'" alt="MCjava也有成长守护？"></a></div><div class="recent-post-info"><a class="article-title" href="/bf/991b9f516593/" title="MCjava也有成长守护？">MCjava也有成长守护？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-02-13T09:57:35.000Z" title="发表于 2022-02-13 17:57:35">2022-02-13</time></span></div><div class="content">进来看看？
+
+玩网易？不用听我BB了，反正网易看了也没用。2017年二月，国家对“未成年人网络游戏防沉迷”问题做出相应指示，在国务院法制办官网公布的《未成年人网络保护条例(送审稿)》当中，第23条就明确规定“禁止未成年人在每日的0：00至8：00期间使用网络游戏服务”以腾讯为例，从2017年2月16日起上线了成长守护系统，其他公司也接连推出了类似的“服务”。起初问题不大，毕竟限制较少。但2021年月30日国家新闻出版署下发《关于进一步严格管理 切实防止未成年人沉迷网络游戏的通知》，堪称史上最严游戏监管令。内容不必多说，虽然就个人而言，我并不认为它起了充分的效果。当时想着其实破解方法不少，比如玩玩单机，玩玩国际服等，结果借了个小盆友的手机看了看，基本市场上主流的游戏都要求实名认证(但是否是真正的实名还是只需要随便填几位数字这就不知道了，毕竟拿着别人的手机)。然后我就觉得，未成年人之后要么遵守规定，就玩那每周两小时，要么选择用家长的身份证，要么，也就引出了今天的主题，玩玩某些不被监管的游戏，比如Minecraft JE。先说明，其实不管BE还是JE，都不需要实名，但都需要买（JE非官方启动 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/bf/62622deed1ed/" title="Ubuntu正式投产"><img class="post_bg" src="/bf/img/l/u.png" onerror="this.onerror=null;this.src='/bf/img/404.jpg'" alt="Ubuntu正式投产"></a></div><div class="recent-post-info"><a class="article-title" href="/bf/62622deed1ed/" title="Ubuntu正式投产">Ubuntu正式投产</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-01-24T12:25:19.000Z" title="发表于 2022-01-24 20:25:19">2022-01-24</time></span></div><div class="content">预计明天开始恢复开发工作。明天见！
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/bf/8b274b6b928d/" title="MAC软件推荐(一)"><img class="post_bg" src="/bf/img/l/m.png" onerror="this.onerror=null;this.src='/bf/img/404.jpg'" alt="MAC软件推荐(一)"></a></div><div class="recent-post-info"><a class="article-title" href="/bf/8b274b6b928d/" title="MAC软件推荐(一)">MAC软件推荐(一)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-01-23T10:52:05.000Z" title="发表于 2022-01-23 18:52:05">2022-01-23</time></span></div><div class="content">整合在做啦！今天氵个博客，讲讲我平时常用的MAC软件。
+
+1.写作：Typora作为一个markdown软件，Typora可以说是集大成者，包括了几乎所有常用的功能像各种语法还有公式同时，Typora还支持和各个图床软件联动而且Typora还内置支持多个主题，个人感觉非常满意。可惜在1.0以后要付费才能使用，所以建议使用0.11.18并关闭更新，当然，支持开发者页能催更出更多好功能。
+（p.s.:打不开别勉强，我也打不开）
+支持win和mac
+2.下载软件：Xdown这个应该比较广泛了吧？毕竟免费还好用的MAC下载软件貌似不是特别多。功能比较完全，包括了BT做种与下载，http(s)下载，还支持从浏览器接力下载。同时也支持自定义http头，也就是可以用来下载一些网盘直链。唯一不足就是作者已经“好久”不更新了……还经常下载BT卡住……总的来说，还是值得下载的。
+
+支持win和mac
+3.图床软件：picgo同样不用多说，图床神器，支持多家图床。虽然内存占的有点多了(毕竟我一共就4G RAM)，但毕竟是一个活在任务栏里的软件，所以还是可以接受滴。这个软件我最喜欢的功能就是自定义图床，支持s ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/bf/d51cdb15fd37/" title="我的博客白嫖思路"><img class="post_bg" src="/bf/img/l/w.png" onerror="this.onerror=null;this.src='/bf/img/404.jpg'" alt="我的博客白嫖思路"></a></div><div class="recent-post-info"><a class="article-title" href="/bf/d51cdb15fd37/" title="我的博客白嫖思路">我的博客白嫖思路</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-01-08T07:54:34.000Z" title="发表于 2022-01-08 15:54:34">2022-01-08</time></span></div><div class="content">记录一下我一直以来白嫖到的那些东西。
+
+1.域名最开始想建博客，主要是看MCBBS的BBcode不爽，然后就没了。当时就萌生出了自己建站的想法。不得不说，想法很美好，现实很果敢。我因为某些原因没法去买国内的域名和服务器。经过10多个小时的百度后，发现了了这个东西：
+
+可以免费申请.tk&#x2F;.ml&#x2F;.ga&#x2F;.gq&#x2F;.cf然后顿时就心动了，当天挂代理搞了一下午，然后连续莫名其妙被取消。再次百度后才知道，用代理反而不如用header edit修改请求头，然后这么干了，然后白嫖到域名wemsx.tk接着马上在腾讯云下属DNSPOD挂解析。一路顺利，而且因为域名和服务器在国外不用备案。申请SSL也是免费的。关键腾讯云还可以免费申请企业邮箱，略微有点麻烦，更习惯qq
+2.托管&#x2F;服务器无需多言，当初也是看中github的pages托管才入的坑。这里提醒一下，bitbucket的托管貌似不能自定义域名，gitlab要信用卡实名认证，gitee要身份证实名。所以，我还可以选择他们的集大成者： vercel
+
+vercel是一个托管平台，建议github登陆 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/bf/c27d5af269a3/" title="git使用心得+简单教程"><img class="post_bg" src="/bf/img/l/g.png" onerror="this.onerror=null;this.src='/bf/img/404.jpg'" alt="git使用心得+简单教程"></a></div><div class="recent-post-info"><a class="article-title" href="/bf/c27d5af269a3/" title="git使用心得+简单教程">git使用心得+简单教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-12-19T05:23:35.053Z" title="发表于 2021-12-19 13:23:35">2021-12-19</time></span></div><div class="content">突然心血来潮想写写我在平时用git的心得
+
+
+其他不废话了。本篇立足于MAC 12.0
+简单教程开始使用1git version 2.30.1 (Apple Git-130)
+苹果自带git，其余系统貌似需要自己安装。不多赘述。SSH默认你已经配好了。我也实在不想写这个了。
+上传文件在github&#x2F;gitee&#x2F;bitbucket&#x2F;gitlab等平台创建仓库后，先在本地切到对应目录比如我的minecraft文件在&#x2F;Library&#x2F;Application Support&#x2F;minecraft则在终端运行
+123cd Librarycd &quot;Application Support&quot;cd minecraft
+可以看到引号不是必加的。但对于中间有空格的文件夹，不加就会切到错误的文件夹。然后如果要上传整个文件夹，那么运行
+1git init
+进行初始化然后
+1git add .
+注意add后面有一个空格和一个句号！！！接着
+1git commit -m &quot;提交的信息&quot;
+如果对于文件夹是初次提交，那么
+1 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/bf/fc5f1f07ce30/" title="整合重做week-4"><img class="post_bg" src="/bf/img/l/z.png" onerror="this.onerror=null;this.src='/bf/img/404.jpg'" alt="整合重做week-4"></a></div><div class="recent-post-info"><a class="article-title" href="/bf/fc5f1f07ce30/" title="整合重做week-4">整合重做week-4</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-12-12T07:38:53.000Z" title="发表于 2021-12-12 15:38:53">2021-12-12</time></span></div><div class="content">本周继续无更新。本周主要修改了一下网站，并开始为FTB在线下做策划。由于我这边线下的一些事情，可能会导致接下来几周的更新频率低。在此深表歉意。
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/bf/5b252e7b4b76/" title="win11安装成功"><img class="post_bg" src="/bf/img/l/w.png" onerror="this.onerror=null;this.src='/bf/img/404.jpg'" alt="win11安装成功"></a></div><div class="recent-post-info"><a class="article-title" href="/bf/5b252e7b4b76/" title="win11安装成功">win11安装成功</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-12-04T08:32:43.000Z" title="发表于 2021-12-04 16:32:43">2021-12-04</time></span></div><div class="content">
+整合本周无更新。
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/bf/862edcd5957e/" title="整合重做Week.3"><img class="post_bg" src="/bf/img/l/z.png" onerror="this.onerror=null;this.src='/bf/img/404.jpg'" alt="整合重做Week.3"></a></div><div class="recent-post-info"><a class="article-title" href="/bf/862edcd5957e/" title="整合重做Week.3">整合重做Week.3</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-11-27T14:49:58.000Z" title="发表于 2021-11-27 22:49:58">2021-11-27</time></span></div><div class="content">各位非酋们(划掉)欧皇们好，这里是wemsx。我继续来通报本周重做进度。这将会成为每周的常态。
+但本周忙，没有过多时间来理会整合。不过还是很努力的加入了大量的新优化模组。
+现在已达到74mods，而且还在增加。更改了战斗机制。将在下周起着手科技&#x2F;玩法向模组添加与魔改。
+敬请期待。
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/bf/3c371f1e58fe/" title="整合重做week2"><img class="post_bg" src="/bf/img/l/z.png" onerror="this.onerror=null;this.src='/bf/img/404.jpg'" alt="整合重做week2"></a></div><div class="recent-post-info"><a class="article-title" href="/bf/3c371f1e58fe/" title="整合重做week2">整合重做week2</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-11-21T06:44:47.000Z" title="发表于 2021-11-21 14:44:47">2021-11-21</time></span></div><div class="content">各位欧皇们好，这里无二继续带来幸运方块大陆重制计划第二周的情况。
+我这周主要对官网进行了修改，并添加了一些小元素。
+对于整合，我加入了基本需要的所有魔改向模组，但主题玩法还在设计中，所以没有加入太多玩法向模组。已经开始着手FTB任务了，此后我尽量每周进行一次开发版更新并发布告示。
+之后官网应该会更精彩，整合也要加油！
+敬请期待
+评论功能已开通，请自重。
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/bf/8fc6836b59f7/" title="重做整合的第一天"><img class="post_bg" src="/bf/img/l/c.png" onerror="this.onerror=null;this.src='/bf/img/404.jpg'" alt="重做整合的第一天"></a></div><div class="recent-post-info"><a class="article-title" href="/bf/8fc6836b59f7/" title="重做整合的第一天">重做整合的第一天</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-11-13T12:05:33.000Z" title="发表于 2021-11-13 20:05:33">2021-11-13</time></span></div><div class="content">今天简单做了主要模组筛选。本次3.0更新将颠覆此前的许多设定及模组，所以耗时会非常长。敬请等待！
+预告：
+1.将加入化学向模组并调整开局任务。
+2.FTB任务将80%以上重做。
+3.将颠覆大量模组。
+</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/bf/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/bf/">1</a><span class="page-number current">2</span></div></nav></div></main><footer id="footer"><div id="footer-wrap"></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/bf/js/utils.js"></script><script src="/bf/js/main.js"></script><script src="https://unpkg.com/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="/bf/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>function subtitleType () {
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      if (true) {
+        const from = '出自 ' + data.from
+        const sub = []
+        sub.unshift(data.hitokoto, from)
+        window.typed = new Typed('#subtitle', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: true,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('subtitle').innerHTML = data.hitokoto
+      }
+    })
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://unpkg.com/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script></div><canvas id="universe"></canvas><script defer src="https://fastly.jsdelivr.net/gh/wemsx/wemsx-static@master/butterfly/js/universe.js"></script><script defer src="https://fastly.jsdelivr.net/gh/wemsx/wemsx-static@master/butterfly/js/xg.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --> <script data-pjax>if(document.getElementById('recent-posts') && location.pathname =='/'){
+    
+    var parent = document.getElementById('recent-posts');
+    var child = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms"></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载swiper')
+    parent.insertAdjacentHTML("afterbegin",child)}
+     </script>
+<script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper/swiper/swiper.min.js"></script>
+<script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper@0.18/swiper/swiperindex.js"></script>
+<style></style><script data-pjax>function history_calendar_injector_config(){
+                var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+                var item_html = '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div>';
+                console.log('已挂载history_calendar')
+                // parent_div_git.innerHTML=item_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
+                parent_div_git.insertAdjacentHTML("afterbegin",item_html) // 有报错，但不影响使用(支持pjax跳转)
+            }if( document.getElementsByClassName('sticky_layout')[0] && (location.pathname ==='all'|| 'all' ==='all')){
+
+            history_calendar_injector_config()
+        } </script><script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-card-history/baiduhistory/js/main.js"></script><!-- hexo injector body_end end --></body></html>
