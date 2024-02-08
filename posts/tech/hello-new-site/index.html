@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>博客新站 v0 | 浪至江海</title>
+<meta name="keywords" content="site">
+<meta name="description" content="在老域名到期前的一个月，我开始考虑是否需要更换博客。Volantis非常理想，但是对于我实际的用途而言有些小小的臃肿，达不到我对加载速度的预期。所以我开始考察之前放弃的Hugo。在随便翻了一会官网以后，找到了现在用的这个PaperMod主题。其实开始的时侯我看上的并不是它，但是第">
+<meta name="author" content="wemsx">
+<link rel="canonical" href="https://wemsx.cn/posts/tech/hello-new-site/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://gcore.jsdelivr.net/gh/wemsx/wemsx.github.io@master/wemsx.svg">
+
+<link rel="apple-touch-icon" href="https://wemsx.cn/apple-touch-icon.png">
+<link rel="mask-icon" href="https://wemsx.cn/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+
+<meta property="og:title" content="博客新站 v0" />
+<meta property="og:description" content="在老域名到期前的一个月，我开始考虑是否需要更换博客。Volantis非常理想，但是对于我实际的用途而言有些小小的臃肿，达不到我对加载速度的预期。所以我开始考察之前放弃的Hugo。在随便翻了一会官网以后，找到了现在用的这个PaperMod主题。其实开始的时侯我看上的并不是它，但是第" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wemsx.cn/posts/tech/hello-new-site/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-24T13:12:27+08:00" />
+<meta property="article:modified_time" content="2023-12-24T13:12:27+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="博客新站 v0"/>
+<meta name="twitter:description" content="在老域名到期前的一个月，我开始考虑是否需要更换博客。Volantis非常理想，但是对于我实际的用途而言有些小小的臃肿，达不到我对加载速度的预期。所以我开始考察之前放弃的Hugo。在随便翻了一会官网以后，找到了现在用的这个PaperMod主题。其实开始的时侯我看上的并不是它，但是第"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+
+        {
+          "@type": "ListItem",
+          "position":  1 ,
+          "name": "文章",
+          "item": "https://wemsx.cn/posts/"
+        },
+
+        {
+          "@type": "ListItem",
+          "position":  2 ,
+          "name": "技术",
+          "item": "https://wemsx.cn/posts/tech/"
+        }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "博客新站 v0",
+      "item": "https://wemsx.cn/posts/tech/hello-new-site/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "博客新站 v0",
+  "name": "博客新站 v0",
+  "description": "在老域名到期前的一个月，我开始考虑是否需要更换博客。Volantis非常理想，但是对于我实际的用途而言有些小小的臃肿，达不到我对加载速度的预期。所以我开始考察之前放弃的Hugo。在随便翻了一会官网以后，找到了现在用的这个PaperMod主题。其实开始的时侯我看上的并不是它，但是第",
+  "keywords": [
+    "site"
+  ],
+  "articleBody": "在老域名到期前的一个月，我开始考虑是否需要更换博客。Volantis非常理想，但是对于我实际的用途而言有些小小的臃肿，达不到我对加载速度的预期。所以我开始考察之前放弃的Hugo。在随便翻了一会官网以后，找到了现在用的这个PaperMod主题。其实开始的时侯我看上的并不是它，但是第一次尝试部署的时侯一直报错。想到这本来就只是为了简化博客就随手删掉了，于是就换成了PaperMod。\n我觉得现在两个站的区别就是分站简洁，而主站更加完善。必须说我觉得二者没有优劣之分，只是在于个人喜好。\n计划是分站主要是现实生活方向，然后主站继续维持开发的主方向。\n现在最大的问题就是每次看到爆满的 ~/ 文件夹就烦，里面东西太多了，考虑之后怎么解决一下CLI工具过多的问题。\n",
+  "wordCount" : "322",
+  "inLanguage": "zh",
+  "datePublished": "2023-12-24T13:12:27+08:00",
+  "dateModified": "2023-12-24T13:12:27+08:00",
+  "author":[{
+    "@type": "Person",
+    "name": "wemsx"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://wemsx.cn/posts/tech/hello-new-site/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "浪至江海",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gcore.jsdelivr.net/gh/wemsx/wemsx.github.io@master/wemsx.svg"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    (function () {
+        let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
+        if(arr = document.cookie.match(reg)) {
+        } else {
+            if (new Date().getHours() >= 19 || new Date().getHours() < 6) {
+                document.body.classList.add('dark');
+                localStorage.setItem("pref-theme", 'dark');
+            } else {
+                document.body.classList.remove('dark');
+                localStorage.setItem("pref-theme", 'light');
+            }
+        }
+    })()
+
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://wemsx.cn/" accesskey="h" title="Hi Wemsx (Alt + H)">Hi Wemsx</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://wemsx.cn/posts/" title="📁归档">
+                <span>📁归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://wemsx.cn/timeline/" title="⌛️时间轴">
+                <span>⌛️时间轴</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://wemsx.cn/search/" title="🔍搜索">
+                <span>🔍搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://wemsx.cn/about/" title="🙋🏻‍♂️关于">
+                <span>🙋🏻‍♂️关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main page">
+<style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+</style>
+
+<article class="post-single">
+    <div id="single-content">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="https://wemsx.cn/">🏠 主页</a>&nbsp;»&nbsp;<a href="https://wemsx.cn/posts/">文章</a>&nbsp;»&nbsp;<a href="https://wemsx.cn/posts/tech/">技术</a></div>
+            <h1 class="post-title">
+                博客新站 v0
+            </h1>
+            <div class="post-meta">
+
+<style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    .parent-post-meta {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.8;
+    }
+</style>
+
+<span class="parent-post-meta">
+    <span id="post_meta_style_1">
+        <span class="fa fa-calendar-check-o"></span>
+        <span>2023-12-24
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    
+    
+    
+    
+    
+    
+    
+    <span id="post_meta_style_3">
+        <span class="fa fa-file-word-o"></span>
+        <span>322字
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_4">
+        <span class="fa fa-clock-o"></span>
+        <span>1分钟
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_5">
+        <span class="fa fa-user-o"></span>
+        <span>wemsx
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_6">
+        <span class="fa fa-tags" style="opacity: 0.8"></span>
+        <span>
+            <span class="post-tags-meta">
+                <a href="https://wemsx.cn/tags/site/" style="color: var(--secondary)!important;">site</a>
+            </span>
+        </span>
+    </span>
+</span>
+
+
+</div>
+        </header> 
+        <div class="post-content"><p>在老域名到期前的一个月，我开始考虑是否需要更换博客。Volantis非常理想，但是对于我实际的用途而言有些小小的臃肿，达不到我对加载速度的预期。所以我开始考察之前放弃的Hugo。在随便翻了一会官网以后，找到了现在用的这个PaperMod主题。其实开始的时侯我看上的并不是它，但是第一次尝试部署的时侯一直报错。想到这本来就只是为了简化博客就随手删掉了，于是就换成了PaperMod。</p>
+<p>我觉得现在两个站的区别就是分站简洁，而主站更加完善。必须说我觉得二者没有优劣之分，只是在于个人喜好。</p>
+<p>计划是分站主要是现实生活方向，然后主站继续维持开发的主方向。</p>
+<p>现在最大的问题就是每次看到爆满的 ~/ 文件夹就烦，里面东西太多了，考虑之后怎么解决一下CLI工具过多的问题。</p>
+
+
+        </div>
+
+        <footer class="post-footer">
+            
+<nav class="paginav">
+  <a class="prev" href="https://wemsx.cn/posts/tech/hello-new-site-2/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>又见面了，PaperMod</span>
+  </a>
+</nav>
+
+        </footer>
+    </div>
+</article>
+</main>
+
+<footer class="footer">
+    <span style="color: #939393;">
+        Copyright
+        &copy;
+        2023-2024
+        <a href="https://wemsx.cn/" style="color:#939393;">wemsx</a>
+        All Rights Reserved
+    </span> ｜ 
+    <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;">蜀ICP备2024052483号-1</a>&nbsp;
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <span class="topInner">
+        <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z"/>
+        </svg>
+        <span id="read_progress"></span>
+    </span>
+</a>
+
+<script>
+    document.addEventListener('scroll', function (e) {
+        const readProgress = document.getElementById("read_progress");
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
+    })
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+</script>
+<script>
+    let mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        (function() {
+            document.cookie = "change-themes" + "="+ escape ("false");
+        })()
+
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    });
+</script>
+
+<script>
+    document.body.addEventListener('copy', function (e) {
+        if (window.getSelection().toString() && window.getSelection().toString().length > 50) {
+            let clipboardData = e.clipboardData || window.clipboardData;
+            if (clipboardData) {
+                e.preventDefault();
+                let htmlData = window.getSelection().toString() +
+                    '\r\n\n————————————————\r\n' +
+                    '版权声明：本文为「'+"浪至江海"+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
+                let textData = window.getSelection().toString() +
+                    '\r\n\n————————————————\r\n' +
+                    '版权声明：本文为「'+"浪至江海"+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
+                clipboardData.setData('text/html', htmlData);
+                clipboardData.setData('text/plain', textData);
+            }
+        }
+    });
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = '复制';
+
+        function copyingDone() {
+            copybutton.innerText = '已复制！';
+            setTimeout(() => {
+                copybutton.innerText = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                let text = codeblock.textContent +
+                    '\r\n————————————————\r\n' +
+                    '版权声明：本文为「'+"浪至江海"+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
+                navigator.clipboard.writeText(text);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) {}
+            selection.removeRange(range);
+        });
+
+        let language = codeblock.className.replaceAll("language-", "")
+        let macTool = document.createElement("div")
+        let macTool1 = document.createElement("div")
+        let macTool2 = document.createElement("div")
+        let macTool3 = document.createElement("div")
+        let languageType = document.createElement("div")
+        languageType.innerText = language
+        macTool.setAttribute('class', 'mac-tool')
+        macTool1.setAttribute('class', 'mac bb1')
+        macTool2.setAttribute('class', 'mac bb2')
+        macTool3.setAttribute('class', 'mac bb3')
+        languageType.setAttribute('class', 'language-type')
+        macTool.appendChild(macTool1)
+        macTool.appendChild(macTool2)
+        macTool.appendChild(macTool3)
+        macTool.appendChild(languageType)
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+            container.appendChild(macTool)
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+            container.appendChild(macTool)
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+            container.appendChild(macTool)
+        }
+    });
+</script>
+</body>
+
+</html>
