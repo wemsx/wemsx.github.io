@@ -1,0 +1,3 @@
+[submodule "firework"]
+	path = firework
+	url = https://github.com/wemsx/firework.git
