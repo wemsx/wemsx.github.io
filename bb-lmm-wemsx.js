@@ -3,7 +3,7 @@ Last Modified time : 20230926 11:00 by https://immmmm.com
 Last Modified(unofficial) time : 20240218 15:00 by @wemsx
 */
 let bbMemo = {
-  memos: 'https://demo.usememos.com/',
+  memos: 'https://memos.wemsx.cn/',
   limit: '10',
   creatorId: '1',
   domId: '#bber',
