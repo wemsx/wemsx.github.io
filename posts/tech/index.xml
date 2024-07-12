@@ -6,7 +6,16 @@
     <description>Recent content in 技术 on 浪至江海</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 14 Jan 2024 09:34:45 +0800</lastBuildDate><atom:link href="https://wemsx.cn/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jul 2024 21:26:36 +0800</lastBuildDate><atom:link href="https://wemsx.cn/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>真想给华为开个 root</title>
+      <link>https://wemsx.cn/posts/tech/huawei-root-1/</link>
+      <pubDate>Fri, 12 Jul 2024 21:26:36 +0800</pubDate>
+      
+      <guid>https://wemsx.cn/posts/tech/huawei-root-1/</guid>
+      <description>本文已完结，但是这个故事还没有完。 家里有一部屏幕报废的华为 Mate20 pro，出于折腾的想法装了个 termux，结果发现这颗麒麟 980 的性能超出想象太多了</description>
+    </item>
+    
     <item>
       <title>你好，hugo</title>
       <link>https://wemsx.cn/posts/tech/decorate-new-site-1/</link>

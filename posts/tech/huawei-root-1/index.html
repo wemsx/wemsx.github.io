@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>💬瞬间 | 浪至江海</title>
-<meta name="keywords" content="">
-<meta name="description" content="💬瞬间 - 浪至江海">
+<title>真想给华为开个 root | 浪至江海</title>
+<meta name="keywords" content="终端, 折腾">
+<meta name="description" content="本文已完结，但是这个故事还没有完。 家里有一部屏幕报废的华为 Mate20 pro，出于折腾的想法装了个 termux，结果发现这颗麒麟 980 的性能超出想象太多了">
 <meta name="author" content="wemsx">
-<link rel="canonical" href="https://wemsx.cn/bb/">
+<link rel="canonical" href="https://wemsx.cn/posts/tech/huawei-root-1/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://gcore.jsdelivr.net/gh/wemsx/wemsx.github.io@master/images/logo.svg">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://wemsx.cn/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="https://wemsx.cn/bb/">
+<link rel="alternate" hreflang="zh" href="https://wemsx.cn/posts/tech/huawei-root-1/">
 <noscript>
     <style>
         #theme-toggle,
@@ -61,16 +61,16 @@
 
   
 
-<meta property="og:title" content="💬瞬间" />
-<meta property="og:description" content="" />
+<meta property="og:title" content="真想给华为开个 root" />
+<meta property="og:description" content="本文已完结，但是这个故事还没有完。 家里有一部屏幕报废的华为 Mate20 pro，出于折腾的想法装了个 termux，结果发现这颗麒麟 980 的性能超出想象太多了" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://wemsx.cn/bb/" /><meta property="article:section" content="" />
-
-
+<meta property="og:url" content="https://wemsx.cn/posts/tech/huawei-root-1/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-07-12T21:26:36+08:00" />
+<meta property="article:modified_time" content="2024-07-12T21:26:36+08:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="💬瞬间"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="真想给华为开个 root"/>
+<meta name="twitter:description" content="本文已完结，但是这个故事还没有完。 家里有一部屏幕报废的华为 Mate20 pro，出于折腾的想法装了个 termux，结果发现这颗麒麟 980 的性能超出想象太多了"/>
 
 
 <script type="application/ld+json">
@@ -78,11 +78,25 @@
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
+
+        {
+          "@type": "ListItem",
+          "position":  1 ,
+          "name": "文章",
+          "item": "https://wemsx.cn/posts/"
+        },
+
+        {
+          "@type": "ListItem",
+          "position":  2 ,
+          "name": "技术",
+          "item": "https://wemsx.cn/posts/tech/"
+        }, 
     {
       "@type": "ListItem",
-      "position":  1 ,
-      "name": "💬瞬间",
-      "item": "https://wemsx.cn/bb/"
+      "position":  3 ,
+      "name": "真想给华为开个 root",
+      "item": "https://wemsx.cn/posts/tech/huawei-root-1/"
     }
   ]
 }
@@ -91,24 +105,24 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "💬瞬间",
-  "name": "💬瞬间",
-  "description": "",
+  "headline": "真想给华为开个 root",
+  "name": "真想给华为开个 root",
+  "description": "本文已完结，但是这个故事还没有完。 家里有一部屏幕报废的华为 Mate20 pro，出于折腾的想法装了个 termux，结果发现这颗麒麟 980 的性能超出想象太多了",
   "keywords": [
-    
+    "终端", "折腾"
   ],
-  "articleBody": " ",
-  "wordCount" : "0",
+  "articleBody": "本文已完结，但是这个故事还没有完。\n家里有一部屏幕报废的华为 Mate20 pro，出于折腾的想法装了个 termux，结果发现这颗麒麟 980 的性能超出想象太多了，正好，想在家搞智能家居，所以就开始搞 HomeAssistant。\n停！其实在一年前我就是试过 termux 了，但是因为手机限制最高也只用 tmoe 工具开了个 proot 容器，发现拿不到 root，安装不了 docker。后来又试了一下 qemu，我只能进 alpine 的系统，而Ubuntu 直接卡死了。关键是进了 Alpine 也大概率没有网络驱动，然后 DNS 也改不过来……各种原因的交织下，我最终还是放弃了，并且在 2024 年 2 月为本站搞了 .cn 域名 + 阿里云 ECS.e2 + 备案。\n不过再怎么搞服务端，本地依旧是个问题。家里依托华为AX3 pro 简单地连接了几个电器。但是因为品牌比较复杂，基本上用不到本来就存在感极弱的 Hi Link。于是再次萌生了用 HomeAssistant 搞进 homekit 的想法。\n然后就是实践了。菊花三代买了，查完了教程，结果手上没有 Windows 电脑，啥工具都用不了。本来准备约人出来搞，结果被作业搞得没脾气 : )。最后一气之下把这台搭载 Core i5-5250U 的 Mac 装了双系统。我最初还在担心 Windows 会不会直接跑不动，结果还挺流畅(?)\n花了一个下午用官方降级工具降级，顺利回到了 EMUI 11.0.0.165。然后就是噩梦了。用 特殊工具 (Hisuite Proxy) 始终搞不定 EMUI 10 的 ROM。然后耗费了另一个周末各方找攻略找原因。最后无功而返。重装了一遍 Windows，并且一通“骚操作”之后，也是最终降回了 EMUI 10.1.0.155。结果刚租完 oc，准备写底层的时候，再次出现了意外。直到现在也没有解决……现在零诊结束了，暑假可以准备最后一波冲刺了。\n中间还有个小插曲，在系统信息中，我的手机型号的 LYA-AL00，于是我就去用相应的包去试。结果一个都不对。最后查遍酷安后才发现，在工程面板 \u003e 单板信息查询 里才能看到我是 LYA-AL00L，大无语，因为在网上查到 AL00L 是 UD(屏下指纹版)，但是我并不是。\n总的来说，不推荐主力机这么整。降级EMUI 11以后系统优化和广告都没有改善，EMUI 10 广告很少，优化也不错，但是官方应用会丢部分功能。关键是，官方降级到 EMUI 11 后，手机就丢掉快充和 usb 了。据说 usb3.0 能用，但是我的电脑貌似不支持，只能开了菊花三代才能连上。充电用安兔兔测出来更笑人，官方 66W 快充头+原装线峰值只有 2W，而随手拼的古代苹果 5V1A的插头居然高达 2.5W！这这回真是 Only Apple Can Do 了 : )。(据说升回鸿蒙 4 以后可以到 8W 左右，但我很怀疑能不能再降回来。)\n暂时就写到这里吧，希望后续能结束这场旷日持久的战斗。\n",
+  "wordCount" : "1049",
   "inLanguage": "zh",
-  "datePublished": "0001-01-01T00:00:00Z",
-  "dateModified": "0001-01-01T00:00:00Z",
-  "author":{
+  "datePublished": "2024-07-12T21:26:36+08:00",
+  "dateModified": "2024-07-12T21:26:36+08:00",
+  "author":[{
     "@type": "Person",
     "name": "wemsx"
-  },
+  }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://wemsx.cn/bb/"
+    "@id": "https://wemsx.cn/posts/tech/huawei-root-1/"
   },
   "publisher": {
     "@type": "Organization",
@@ -122,7 +136,7 @@
 </script>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     (function () {
         let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
@@ -189,7 +203,7 @@
             </li>
             <li>
                 <a href="https://wemsx.cn/bb/" title="💬瞬间">
-                <span class="active">💬瞬间</span>
+                <span>💬瞬间</span>
                 </a>
             </li>
             <li>
@@ -217,22 +231,95 @@
 <article class="post-single">
     <div id="single-content">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="https://wemsx.cn/">🏠 主页</a></div>
+            <div class="breadcrumbs"><a href="https://wemsx.cn/">🏠 主页</a>&nbsp;»&nbsp;<a href="https://wemsx.cn/posts/">文章</a>&nbsp;»&nbsp;<a href="https://wemsx.cn/posts/tech/">技术</a></div>
             <h1 class="post-title">
-                💬瞬间
+                真想给华为开个 root
             </h1>
+            <div class="post-meta">
+
+<style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    .parent-post-meta {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.8;
+    }
+</style>
+
+<span class="parent-post-meta">
+    <span id="post_meta_style_1">
+        <span class="fa fa-calendar-check-o"></span>
+        <span>2024-07-12
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    
+    
+    
+    
+    
+    
+    
+    <span id="post_meta_style_3">
+        <span class="fa fa-file-word-o"></span>
+        <span>1049字
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_4">
+        <span class="fa fa-clock-o"></span>
+        <span>3分钟
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_5">
+        <span class="fa fa-user-o"></span>
+        <span>wemsx
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_6">
+        <span class="fa fa-tags" style="opacity: 0.8"></span>
+        <span>
+            <span class="post-tags-meta">
+                <a href="https://wemsx.cn/tags/%E7%BB%88%E7%AB%AF/" style="color: var(--secondary)!important;">终端</a>
+                &nbsp;<a href="https://wemsx.cn/tags/%E6%8A%98%E8%85%BE/" style="color: var(--secondary)!important;">折腾</a>
+            </span>
+        </span>
+    </span>
+</span>
+
+
+</div>
         </header> 
-        <div class="post-content"><div id="bber"></div>
-<script src="https://fastly.jsdelivr.net/npm/marked/marked.min.js"></script>
-<!--<script src="https://unpkg.com/meting@2.0.1/dist/Meting.min.js"></script>-->
-<script src="https://fastly.jsdelivr.net/gh/Tokinx/Lately/lately.min.js"></script>
-<script src="https://fastly.jsdelivr.net/gh/wemsx/wemsx.github.io/bb-lmm-wemsx.js"></script>
+        <div class="post-content"><p>本文已完结，但是这个故事还没有完。</p>
+<!--\more--> 
+<p>家里有一部屏幕报废的华为 Mate20 pro，出于折腾的想法装了个 termux，结果发现这颗麒麟 980 的性能超出想象太多了，正好，想在家搞智能家居，所以就开始搞 HomeAssistant。</p>
+<p>停！其实在一年前我就是试过 termux 了，但是因为手机限制最高也只用 tmoe 工具开了个 proot 容器，发现拿不到 root，安装不了 docker。后来又试了一下 qemu，我只能进 alpine 的系统，而Ubuntu 直接卡死了。关键是进了 Alpine 也大概率没有网络驱动，然后 DNS 也改不过来&hellip;&hellip;各种原因的交织下，我最终还是放弃了，并且在 2024 年 2 月为本站搞了 .cn 域名 + 阿里云 ECS.e2 + 备案。</p>
+<p>不过再怎么搞服务端，本地依旧是个问题。家里依托华为AX3 pro 简单地连接了几个电器。但是因为品牌比较复杂，基本上用不到本来就存在感极弱的 Hi Link。于是再次萌生了用 HomeAssistant 搞进 homekit 的想法。</p>
+<p>然后就是实践了。菊花三代买了，查完了教程，结果手上没有 Windows 电脑，啥工具都用不了。本来准备约人出来搞，结果被作业搞得没脾气 : )。最后一气之下把这台搭载 Core i5-5250U 的 Mac 装了双系统。我最初还在担心 Windows 会不会直接跑不动，结果还挺流畅(?)</p>
+<p>花了一个下午用官方降级工具降级，顺利回到了 EMUI 11.0.0.165。然后就是噩梦了。用 <code>特殊工具</code> (Hisuite Proxy) 始终搞不定 EMUI 10 的 ROM。然后耗费了另一个周末各方找攻略找原因。最后无功而返。重装了一遍 Windows，并且一通“骚操作”之后，也是最终降回了 EMUI 10.1.0.155。结果刚租完 oc，准备写底层的时候，再次出现了意外。直到现在也没有解决&hellip;&hellip;现在零诊结束了，暑假可以准备最后一波冲刺了。</p>
+<p>中间还有个小插曲，在系统信息中，我的手机型号的 LYA-AL00，于是我就去用相应的包去试。结果一个都不对。最后查遍酷安后才发现，在工程面板 &gt; 单板信息查询 里才能看到我是 LYA-AL00<strong>L</strong>，大无语，因为在网上查到 AL00L 是 UD(屏下指纹版)，但是我并不是。</p>
+<p>总的来说，不推荐主力机这么整。降级EMUI 11以后系统优化和广告都没有改善，EMUI 10 广告很少，优化也不错，但是官方应用会丢部分功能。关键是，<strong>官方</strong>降级到 EMUI 11 后，手机就丢掉快充和 usb 了。据说 usb3.0 能用，但是我的电脑貌似不支持，只能开了菊花三代才能连上。充电用安兔兔测出来更笑人，官方 66W 快充头+原装线峰值只有 2W，而随手拼的古代苹果 5V1A的插头居然高达 2.5W！这这回真是 Only Apple Can Do 了 : )。(据说升回鸿蒙 4 以后可以到 8W 左右，但我很怀疑能不能再降回来。)</p>
+<p>暂时就写到这里吧，希望后续能结束这场旷日持久的战斗。</p>
 
 
         </div>
 
         <footer class="post-footer">
             
+<nav class="paginav">
+  <a class="next" href="https://wemsx.cn/posts/study/amusing-ourselves-to-death/">
+    <span class="title">下一页 »</span>
+    <br>
+    <span>《娱乐至死》读后感</span>
+  </a>
+</nav>
 
         </footer>
     </div>
