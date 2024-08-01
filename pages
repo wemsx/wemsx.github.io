@@ -1,0 +1,5 @@
+hugo -F --cleanDestinationDir
+cd public
+git add .
+git commit -m "Site Updated"
+git push

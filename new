@@ -1,0 +1,4 @@
+# hugo new posts/tech/hello-new-site.md
+
+hugo new posts/$1/$2.md
+open ./content/posts/$1/$2.md

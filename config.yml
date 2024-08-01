@@ -1,6 +1,6 @@
-baseURL: https://xyming108.github.io/ # 绑定的域名
+baseURL: https://wemsx.cn/
 languageCode: zh # en-us
-title: Sulv's Blog
+title: 浪至江海
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
 
 enableInlineShortcodes: true
@@ -12,11 +12,9 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics:  # 谷歌统计
-# Copyright: Sulv
 
 paginate: 15    # 首页每页显示的文章数
-summaryLength: 140 # 文章概览的自字数，默认70
+summaryLength: 70 # 文章概览的自字数，默认70
 
 minify:
   disableXML: true
@@ -31,34 +29,21 @@ defaultContentLanguageInSubdir: false
 
 menu:
   main:
-    - identifier: search
-      name: 🔍 搜索
-      url: search
-      weight: 1
-    - identifier: home
-      name: 🏠 主页
-      url: /
-      weight: 2
-    - identifier: posts
-      name: 📚 文章
-      url: posts
-      weight: 3
-    - identifier: tags
-      name: 🧩 标签
-      url: tags
-      weight: 15
-    - identifier: archives
-      name: ⏱️ 时间轴
-      url: archives/
-      weight: 20
-    - identifier: about
-      name: 🙋🏻‍♂️ 关于
-      url: about
-      weight: 50
-    - identifier: links
-      name: 🤝 友链
-      url: links
-      weight: 60
+    - name: 📁归档
+      url: posts/
+      weight: 5
+    - name: ⌛️时间轴
+      url:  timeline/
+      weight: 10
+    - name: 🙋🏻‍♂️关于
+      url: about/
+      weight: 10
+    - name: 💬瞬间
+      url: bb/
+      weight: 10
+    - name: 🔍搜索
+      url: search/
+      weight: 10
 
 outputs:
   home:
@@ -68,9 +53,9 @@ outputs:
 
 # 这里的参数会被代码以 .Site.Params 的形式读取
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: ""
-  author: Sulv
+  env: production
+  description: "wemsx - https://github.com/wemsx"
+  author: wemsx
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto  # defaultTheme: light or  dark
@@ -84,8 +69,8 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideFooter: false # 隐藏页脚
-  ShowWordCounts: true
-  VisitCount: true
+  ShowWordCounts: false
+  VisitCount: false
   ShowLastMod: true #显示文章更新时间
 
   ShowToc: true # 显示目录
@@ -93,62 +78,47 @@ params:
 
   extendCodeBackground: false # 代码块是否自动横向展开
 
-  comments: true
-
   profileMode:
     enabled: true
-    title: (〃'▽'〃)
-    subtitle:
-    # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
-    imageUrl: "img/Q.gif"
-    imageTitle:
+    title: wemsx
+    imageUrl: "https://gcore.jsdelivr.net/gh/wemsx/wemsx.github.io@master/images/wemsx.png"
+    imageTitle: wemsx's avatar
     imageWidth: 150
     imageHeight: 150
+    subtitle: "潮起山川，浪至江海，万境生辉。"
     buttons:
-      - name: 🧱 建站
-        url: posts/blog
-      - name: 👨🏻‍💻 技术
-        url: posts/tech
-      - name: 📕 阅读
-        url: posts/read
-      - name: 🏖 生活
-        url: posts/life
+      - name: 🏖生活
+        url: posts/life/
+      - name: 👨🏻‍💻技术
+        url: posts/tech/
+      - name: 🏫学习
+        url: posts/study/
+      - name: Everate
+        url: https://everate.wemsx.top
 
   socialIcons:
     - name: github
-      url: "https://github.com/xyming108"
-    - name: twitter
-      url: "img/twitter.png"
-    - name: facebook
-      url: "https://www.facebook.com/profile.php?id=100027782410997"
-    - name: instagram
-      url: "img/instagram.png"
-    - name: QQ
-      url: "img/qq.png"
-    - name: WeChat
-      url: "img/wechat.png"
-    - name: bilibili
-      url: "https://space.bilibili.com/234461224"
+      title: See Me on Github
+      url: "https://github.com/wemsx"
     - name: email
-      url: "mailto:1931559710@qq.com"
-    - name: RSS
-      url: "index.xml"
+      url: "mailto:3551697397@qq.com"
+    - name: bilibili
+      url: "https://space.bilibili.com/628990477"
+    #- name: KoFi
+    #  title: Buy author a Ko-Fi :)
+    #  url: "https://ko-fi.com/adityatelange"
 
   label: # 左上角图标
-    text: "Sulv's Blog"
-    icon: "img/Q.gif"
-    iconHeight: 35
-
-  analytics:
-    google:
-      SiteVerificationTag: ""
+    text: "Hi Wemsx"
+    #icon: "img/Q.gif"
+    #conHeight: 35
 
   assets:
-    favicon: "img/Q.gif"
-    favicon16x16: "img/Q.gif"
-    favicon32x32: "img/Q.gif"
-    apple_touch_icon: "img/Q.gif"
-    safari_pinned_tab: "img/Q.gif"
+    favicon: "https://gcore.jsdelivr.net/gh/wemsx/wemsx.github.io@master/images/logo.svg"
+    #favicon16x16: "img/Q.gif"
+    #favicon32x32: "img/Q.gif"
+    #apple_touch_icon: "img/Q.gif"
+    #safari_pinned_tab: "img/Q.gif"
     disableFingerprinting: true # 禁用指纹
 
   cover:
@@ -165,23 +135,24 @@ params:
     minMatchCharLength: 0
     keys: [ "title", "permalink", "summary" ]
 
-  StartYear: 2020 # 底部开始年份
-  FilingNo: 填写自己的备案号 # 底部备案号
-  PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
-  PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
+  StartYear: 2023 # 底部开始年份
+  FilingNo: 蜀ICP备2024052483号-1 # 底部备案号
+  #PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
+  #PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
 
-  Reward: true #打赏是否开启
+  Reward: false #打赏是否开启
   # 打赏微信图片地址，
   # 可用绝对和相对地址，相对地址的图片需放在static/img下，
   # 填写格式为img/wechat_pay.png
-  WechatPay: img/wechat_pay.png
-  Alipay: img/alipay.png #打赏支付宝图片地址
+  #WechatPay: img/wechat_pay.png
+  #Alipay: img/alipay.png #打赏支付宝图片地址
 
+  comments: false
   # twikoo评论
-  twikoo:
-    version: 1.5.8 # 填写twikoo版本号
-    id:  # 填写自己的twikoo id
-    region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
+  #twikoo:
+  #  version: 1.5.8 # 填写twikoo版本号
+  #  id:  # 填写自己的twikoo id
+  #  region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
 
 taxonomies:
   category: categories

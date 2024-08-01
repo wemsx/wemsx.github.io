@@ -1,6 +1,6 @@
-[submodule "hugo-PaperMod"]
-	path = hugo-PaperMod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
 [submodule "themes/hugo-PaperMod"]
 	path = themes/hugo-PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "static/firework"]
+	path = static/firework
+	url = https://github.com/wemsx/firework.git

@@ -1,13 +1,11 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "你好，hugo"
+date: 2024-01-14T09:34:45+08:00
+lastmod: 2024-01-14T09:34:45+08:00
 author: ["wemsx"]
 tags:
-- 标签1
-- 标签2
+- site
 # summary->在列表页展现的摘要内容，自动生成，内容默认前70个字符，可通过此参数自定义，一般无需专门设置
-summary: ""
 weight: # 输入1可以顶置文章，用来给文章展示排序，不填就默认按时间排序
 draft: false # 是否为草稿
 hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
@@ -15,8 +13,12 @@ disableShare: true # 底部不显示分享栏
 showbreadcrumbs: true #顶部显示当前路径
 ---
 
-此处内容将会出现在摘要（summary）里
+虽然还是不怎么样，但是这个站基本支棱起来力～～
 
 <!--\more--> 
 
-此处开始为正文
+这周顶着巨大的压力开干，换了域名，正式把 hugo 上传了。别了，陪了我两年的 volantis。
+
+顺便把备案相关的东西准备好了，只要可以随时可以冲。
+
+祝我下周一切顺利吧。
