@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>我刷机成了，但是... | 浪至江海</title>
-<meta name="keywords" content="终端, 折腾">
-<meta name="description" content="我解了 root，也解开了心结。">
+<title>最后一个暑假了 | 浪至江海</title>
+<meta name="keywords" content="学校, 总结">
+<meta name="description" content="终于，也是结束了在高中的最后一个暑假。">
 <meta name="author" content="wemsx">
-<link rel="canonical" href="https://wemsx.cn/posts/tech/huawei-root-2/">
+<link rel="canonical" href="https://wemsx.cn/posts/life/last-summer-vacation/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://gcore.jsdelivr.net/gh/wemsx/wemsx.github.io@master/images/logo.svg">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://wemsx.cn/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="https://wemsx.cn/posts/tech/huawei-root-2/">
+<link rel="alternate" hreflang="zh" href="https://wemsx.cn/posts/life/last-summer-vacation/">
 <noscript>
     <style>
         #theme-toggle,
@@ -61,16 +61,16 @@
 
   
 
-<meta property="og:title" content="我刷机成了，但是..." />
-<meta property="og:description" content="我解了 root，也解开了心结。" />
+<meta property="og:title" content="最后一个暑假了" />
+<meta property="og:description" content="终于，也是结束了在高中的最后一个暑假。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://wemsx.cn/posts/tech/huawei-root-2/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-08-07T22:39:07+08:00" />
-<meta property="article:modified_time" content="2024-08-07T22:39:07+08:00" />
+<meta property="og:url" content="https://wemsx.cn/posts/life/last-summer-vacation/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-08-24T22:47:41+08:00" />
+<meta property="article:modified_time" content="2024-08-24T22:47:41+08:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="我刷机成了，但是..."/>
-<meta name="twitter:description" content="我解了 root，也解开了心结。"/>
+<meta name="twitter:title" content="最后一个暑假了"/>
+<meta name="twitter:description" content="终于，也是结束了在高中的最后一个暑假。"/>
 
 
 <script type="application/ld+json">
@@ -89,14 +89,14 @@
         {
           "@type": "ListItem",
           "position":  2 ,
-          "name": "技术",
-          "item": "https://wemsx.cn/posts/tech/"
+          "name": "生活",
+          "item": "https://wemsx.cn/posts/life/"
         }, 
     {
       "@type": "ListItem",
       "position":  3 ,
-      "name": "我刷机成了，但是...",
-      "item": "https://wemsx.cn/posts/tech/huawei-root-2/"
+      "name": "最后一个暑假了",
+      "item": "https://wemsx.cn/posts/life/last-summer-vacation/"
     }
   ]
 }
@@ -105,24 +105,24 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "我刷机成了，但是...",
-  "name": "我刷机成了，但是...",
-  "description": "我解了 root，也解开了心结。",
+  "headline": "最后一个暑假了",
+  "name": "最后一个暑假了",
+  "description": "终于，也是结束了在高中的最后一个暑假。",
   "keywords": [
-    "终端", "折腾"
+    "学校", "总结"
   ],
-  "articleBody": "我解了 root，也解开了心结。\n书接上回，我在成年前的最后一个暑假，第一次完成了刷机。\n其实后面的步骤比预想中顺利很多，除了因为最开始的基线版本不对(10.1.0.155)导致用不了免拆包，然后顶着没有 usb，靠工程头慢慢降回 10.1.0.153 以后，一切都清净了。虽然但是，我浪费了租来的 Octopus Huawei 。然后被迫又租了一个小时。中途我很紧张，因为生怕哪里出问题了就砖了。在最后进 COM1.0 用 adb 来解 bl 的时候，我甚至拿手机来拍了几张照，毕竟这可是我做了三年的梦。\n然而，事与愿违，我发现即使刷上面具的华为也不怎么能用。首先是因为 Kirin 980 的特殊性，市面上没有用于为它改调度的模块或者工具。这便离我的初衷很远了。我是想用这颗还算不错的 arm-v8a 来搭建一个家庭服务器，所以想把调度改得很低来节能。现在系统原生的省电精灵+超级省电只能保证 210+小时，略低于我 300 小时的预期。\n其次，因为一些特殊原因，降级 EMUI 9 之后这部设备失去了 usb 与快充。usb 好解决，只需要一个工程头或者直接局域网。但是快充就不妙了。尽管我们长期嘲笑 Only Apple Can Do 的 20W“快充”，但是当我在 2024 年看到一部 ～4000mah 的设备要 8 个小时才能充满的时候，还是会忍俊不禁。算下来开 termux 后想要充进去电都难，于是开始打退堂鼓了。\n后来，有了更严重的问题。我按照之前的想法，给 termux 开了 tsu ，试图安装一个 chroot 并套壳 docker。但是当我用 tmoe 工具时，我发现它的方案是两层套壳，即 termux –\u003e debian(proot/chroot) –\u003e arch linux –\u003e docker。关键 arch linux 还是默认用 vnc 连接一个没有 GUI 的精简系统。出于懒和对折腾精神的违背，我放弃了这个看上去就压不住功耗，而且不方便随时启动的方案。再审视两圈以后，我接受了我一直以来以为只要有了 root 就能解决一切问题的想法是天真的。\n所以，在开学前，就简单写写关于这一趟折腾的终局，也在此感谢给予我帮助的各位朋友。\n感谢 Youc 提供的解锁方案。感谢 ElysianMei 及织麻铀给我提供的精神支持。让我能过一次成功。\n都说刷机小白变成大佬只需要一次变砖，那么，我短时间内是成不了\"大佬\"了吧 : D(无意冒犯)\n",
-  "wordCount" : "824",
+  "articleBody": "终于，也是结束了在高中的最后一个暑假。\n这个暑假，可以说是我最后一个要一边担心开学一边干自己的事的假期了，毕竟寒假两周约等于没有嘛。高三生活是这样的。\n所以，我觉得我应当做一些有意义的事情，让自己不会因此而留遗憾。这篇文章，就简简单单地做个总结吧。\n1.第一次刷机 参考 这篇文章\n在这个假期之初，我就简单地设想了我可以刷完机以后做什么。结果最终刷是刷成了，但是实际上不知道为什么即使拿到了 root 也不能像我此前的“幻想”那般为所欲为，所以有些失望。同时，因为未知的原因，目前手上的这台 HMA-AL00 在拍照地时候会随缘崩溃…反正，这个未知的世界只是刚刚为我打开，我还需要沉淀更多才能成为我所想要成为的样子吧。\n2.和同学一起搞周边 原项目： 小末花\n这是一个已经被废弃很久的项目，但是出于我的一时兴起，又把它搞起来了。最开始还很担心最终的成效，担心会不会扑街。结果是放心地趋势了，好吧，看来我没有什么美术的天赋。目前搞了两种产品，就是那种小徽章，以及下面这个提包。其实我挺满意的，感觉比较符合我的审美 XD。另外，感谢 @问号海伦 提供的绘画素材，以及给我这个做出“产品”的机会，谢谢大哥！\n3.重头戏：给喜欢的项目写翻译 某个 presentation 的使用案例： 话说在很久之前，因为电脑性能的差劲，让我开始寻找 PowerPoint 的替代方案。于是，我找到了 —— Reveal.js。这里也致敬这个经典老框架。这或许就是我的前端上手的引领者之一。当时折腾这个也是搞了好久，觉得当时那种心情现在也很难复刻了，毕竟时间太少了…因为 Reveal.js 的水平略有点受到原生 js 的限制，至少在我的手中无法完全发挥，所以在沉寂了许久后，我找到了这个令我倾服的框架 —— Slidev。这是一个基于 Vue 的前端 Slide 框架，手感和 UI 简直不要太好。于是我很快就入坑了 Slidev，还为此研究了很多东西。曾经还有一个悲伤的故事，就是我为了某个“正式的场合”做了一个很精细的 Slide，甚至专门找地方去试了比例和翻页（尽管从结果来说是没必要的，因为 Slidev 为此做了很优秀的优化。幻灯片会按照比例放大）。但是结果是因为“某些原因”，我甚至没能用上这个花费了我不下 20 小时的 Slide。当时挺崩溃的。\n然后，暑假之初因为刷完机发现没什么可玩的有些无所事事，然后就发现 Slidev 官网中文文档 还有些英文没有翻译，就一时兴起 x2 去仓库翻出来那个文档，然后写完了翻译。结果被大佬 @KermanX 告知文档要翻新，于是被拉进一个“神神秘秘的 QQ 群”，然后就开始了两三周的工作。每天就在做完作业后随手翻一两篇，然后一点一点地最后写了将近小半个仓库。最后也是成功地成为了中文文档的贡献者之一，好耶！\n我们的工作分支 Merge 到 Main 那天正好是七夕～虽然今年依然是单刷，但是第一次参与开源贡献的喜悦还是冲淡了孤独。\n4.总结 这是一个看上去什么也没做但是又感觉做了很多的假期，已经符合了我对最后的暑假的期待。希望以后也能有机会像这次一样，能够和家人一起看奥运会聊体育，能够自由地去做自己想做的事，能和朋友一起做能让别人开心的事。这，或许就是青春的一部分吧。 话说，这个暑假因为学校装修，我们被迫提前放假，又提前一周返校，刚好错过了《黑神话》发售的“第三次赛博大战”（前两次分别是《赛博朋克》秒杀 3090，《星空》赛尔号杀手）。第一次能心平气和地和父母聊一个我们都不玩的游戏。然而在今天以后，就正式地开启了高三上六休一，全年无休的生活了。希望我能坚持写些 Blog，让明年 7 月时的我也能感慨，这就是我的高三！\n",
+  "wordCount" : "1406",
   "inLanguage": "zh",
-  "datePublished": "2024-08-07T22:39:07+08:00",
-  "dateModified": "2024-08-07T22:39:07+08:00",
+  "datePublished": "2024-08-24T22:47:41+08:00",
+  "dateModified": "2024-08-24T22:47:41+08:00",
   "author":[{
     "@type": "Person",
     "name": "wemsx"
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://wemsx.cn/posts/tech/huawei-root-2/"
+    "@id": "https://wemsx.cn/posts/life/last-summer-vacation/"
   },
   "publisher": {
     "@type": "Organization",
@@ -231,9 +231,9 @@
 <article class="post-single">
     <div id="single-content">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="https://wemsx.cn/">🏠 主页</a>&nbsp;»&nbsp;<a href="https://wemsx.cn/posts/">文章</a>&nbsp;»&nbsp;<a href="https://wemsx.cn/posts/tech/">技术</a></div>
+            <div class="breadcrumbs"><a href="https://wemsx.cn/">🏠 主页</a>&nbsp;»&nbsp;<a href="https://wemsx.cn/posts/">文章</a>&nbsp;»&nbsp;<a href="https://wemsx.cn/posts/life/">生活</a></div>
             <h1 class="post-title">
-                我刷机成了，但是...
+                最后一个暑假了
             </h1>
             <div class="post-meta">
 
@@ -254,7 +254,7 @@
 <span class="parent-post-meta">
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
-        <span>2024-08-07
+        <span>2024-08-24
             &nbsp;&nbsp;
         </span>
     </span>
@@ -267,13 +267,13 @@
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>824字
+        <span>1406字
             &nbsp;&nbsp;
         </span>
     </span>
     <span id="post_meta_style_4">
         <span class="fa fa-clock-o"></span>
-        <span>2分钟
+        <span>3分钟
             &nbsp;&nbsp;
         </span>
     </span>
@@ -287,8 +287,8 @@
         <span class="fa fa-tags" style="opacity: 0.8"></span>
         <span>
             <span class="post-tags-meta">
-                <a href="https://wemsx.cn/tags/%E7%BB%88%E7%AB%AF/" style="color: var(--secondary)!important;">终端</a>
-                &nbsp;<a href="https://wemsx.cn/tags/%E6%8A%98%E8%85%BE/" style="color: var(--secondary)!important;">折腾</a>
+                <a href="https://wemsx.cn/tags/%E5%AD%A6%E6%A0%A1/" style="color: var(--secondary)!important;">学校</a>
+                &nbsp;<a href="https://wemsx.cn/tags/%E6%80%BB%E7%BB%93/" style="color: var(--secondary)!important;">总结</a>
             </span>
         </span>
     </span>
@@ -296,17 +296,117 @@
 
 
 </div>
-        </header> 
-        <div class="post-content"><p>我解了 root，也解开了心结。</p>
+        </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1%e7%ac%ac%e4%b8%80%e6%ac%a1%e5%88%b7%e6%9c%ba" aria-label="1.第一次刷机">1.第一次刷机</a></li>
+                <li>
+                    <a href="#2%e5%92%8c%e5%90%8c%e5%ad%a6%e4%b8%80%e8%b5%b7%e6%90%9e%e5%91%a8%e8%be%b9" aria-label="2.和同学一起搞周边">2.和同学一起搞周边</a></li>
+                <li>
+                    <a href="#3%e9%87%8d%e5%a4%b4%e6%88%8f%e7%bb%99%e5%96%9c%e6%ac%a2%e7%9a%84%e9%a1%b9%e7%9b%ae%e5%86%99%e7%bf%bb%e8%af%91" aria-label="3.重头戏：给喜欢的项目写翻译">3.重头戏：给喜欢的项目写翻译</a></li>
+                <li>
+                    <a href="#4%e6%80%bb%e7%bb%93" aria-label="4.总结">4.总结</a>
+                </li>
+            </ul>
+        </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+        
+        activeElement = elements[0];
+        const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+        document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+    }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        if (elements) {
+            activeElement = Array.from(elements).find((element) => {
+                if ((getOffsetTop(element) - window.pageYOffset) > 0 &&
+                    (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                    return element;
+                }
+            }) || activeElement
+
+            elements.forEach(element => {
+                const id = encodeURI(element.getAttribute('id')).toLowerCase();
+                if (element === activeElement){
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+                } else {
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+                }
+            })
+        }
+    }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;
+    }
+</script>
+        <div class="post-content"><p>终于，也是结束了在高中的最后一个暑假。</p>
 <!--\more--> 
-<p>书接上回，我在成年前的最后一个暑假，第一次完成了刷机。</p>
-<p>其实后面的步骤比预想中顺利很多，除了因为最开始的基线版本不对(10.1.0.155)导致用不了免拆包，然后顶着没有 usb，靠工程头慢慢降回 10.1.0.153 以后，一切都清净了。虽然但是，我浪费了租来的 Octopus Huawei 。然后被迫又租了一个小时。中途我很紧张，因为生怕哪里出问题了就砖了。在最后进 COM1.0 用 adb 来解 bl 的时候，我甚至拿手机来拍了几张照，毕竟这可是我做了三年的梦。</p>
-<p>然而，事与愿违，我发现即使刷上面具的华为也不怎么能用。首先是因为 Kirin 980 的特殊性，市面上没有用于为它改调度的模块或者工具。这便离我的初衷很远了。我是想用这颗还算不错的 arm-v8a 来搭建一个家庭服务器，所以想把调度改得很低来节能。现在系统原生的省电精灵+超级省电只能保证 210+小时，略低于我 300 小时的预期。</p>
-<p>其次，因为一些特殊原因，降级 EMUI 9 之后这部设备失去了 usb 与快充。usb 好解决，只需要一个工程头或者直接局域网。但是快充就不妙了。尽管我们长期嘲笑 Only Apple Can Do 的 20W“快充”，但是当我在 2024 年看到一部 ～4000mah 的设备要 8 个小时才能充满的时候，还是会忍俊不禁。算下来开 termux 后想要充进去电都难，于是开始打退堂鼓了。</p>
-<p>后来，有了更严重的问题。我按照之前的想法，给 termux 开了 tsu ，试图安装一个 chroot 并套壳 docker。但是当我用 tmoe 工具时，我发现它的方案是两层套壳，即 <code>termu</code>x &ndash;&gt; <code>debian</code>(proot/chroot) &ndash;&gt; <code>arch linux </code> &ndash;&gt; <code>docker</code>。关键 arch linux 还是默认用 vnc 连接一个没有 GUI 的精简系统。出于懒和对折腾精神的违背，我放弃了这个看上去就压不住功耗，而且不方便随时启动的方案。再审视两圈以后，我接受了我一直以来以为只要有了 root 就能解决一切问题的想法是天真的。</p>
-<p>所以，在开学前，就简单写写关于这一趟折腾的终局，也在此感谢给予我帮助的各位朋友。</p>
-<p>感谢 Youc 提供的解锁方案。感谢 ElysianMei 及织麻铀给我提供的精神支持。让我能过一次成功。</p>
-<p>都说刷机小白变成大佬只需要一次变砖，那么，我短时间内是成不了&quot;大佬&quot;了吧 : D(无意冒犯)</p>
+<p>这个暑假，可以说是我最后一个要一边担心开学一边干自己的事的假期了，毕竟寒假两周约等于没有嘛。高三生活是这样的。</p>
+<p>所以，我觉得我应当做一些有意义的事情，让自己不会因此而留遗憾。这篇文章，就简简单单地做个总结吧。</p>
+<h2 id="1第一次刷机">1.第一次刷机<a hidden class="anchor" aria-hidden="true" href="#1第一次刷机">#</a></h2>
+<blockquote>
+<p>参考 <a href="https://wemsx.cn/posts/tech/huawei-root-2/" title="我刷机成了，但是...">这篇文章</a></p>
+</blockquote>
+<p>在这个假期之初，我就简单地设想了我可以刷完机以后做什么。结果最终刷是刷成了，但是实际上不知道为什么即使拿到了 root 也不能像我此前的“幻想”那般为所欲为，所以有些失望。同时，因为未知的原因，目前手上的这台 HMA-AL00 在拍照地时候会随缘崩溃&hellip;反正，这个未知的世界只是刚刚为我打开，我还需要沉淀更多才能成为我所想要成为的样子吧。</p>
+<h2 id="2和同学一起搞周边">2.和同学一起搞周边<a hidden class="anchor" aria-hidden="true" href="#2和同学一起搞周边">#</a></h2>
+<blockquote>
+<p>原项目： <a href="https://xm.wemsx.cn">小末花</a></p>
+</blockquote>
+<p>这是一个已经被废弃很久的项目，但是出于我的一时兴起，又把它搞起来了。最开始还很担心最终的成效，担心会不会扑街。结果是放心地趋势了，好吧，看来我没有什么美术的天赋。目前搞了两种产品，就是那种小徽章，以及下面这个提包。其实我挺满意的，感觉比较符合我的审美 XD。另外，感谢 @问号海伦 提供的绘画素材，以及给我这个做出“产品”的机会，谢谢大哥！</p>
+<p><img loading="lazy" src="https://s2.loli.net/2024/08/24/INP3C4MHzfWrKDY.jpg" alt="其中一个产物"  />
+</p>
+<h2 id="3重头戏给喜欢的项目写翻译">3.重头戏：给喜欢的项目写翻译<a hidden class="anchor" aria-hidden="true" href="#3重头戏给喜欢的项目写翻译">#</a></h2>
+<blockquote>
+<p>某个 presentation 的使用案例：<img loading="lazy" src="https://s2.loli.net/2024/08/24/KZVCYqaouxkJPBz.png" alt="案例"  />
+</p>
+</blockquote>
+<p>话说在很久之前，因为电脑性能的差劲，让我开始寻找 PowerPoint 的替代方案。于是，我找到了 —— Reveal.js。这里也致敬这个经典老框架。这或许就是我的前端上手的引领者之一。当时折腾这个也是搞了好久，觉得当时那种心情现在也很难复刻了，毕竟时间太少了&hellip;因为 Reveal.js 的水平略有点受到原生 js 的限制，至少在我的手中无法完全发挥，所以在沉寂了许久后，我找到了这个令我倾服的框架 —— Slidev。这是一个基于 Vue 的前端 Slide 框架，手感和 UI 简直不要太好。于是我很快就入坑了 Slidev，还为此研究了很多东西。曾经还有一个悲伤的故事，就是我为了某个“正式的场合”做了一个很精细的 Slide，甚至专门找地方去试了比例和翻页（尽管从结果来说是没必要的，因为 Slidev 为此做了很优秀的优化。幻灯片会按照比例放大）。但是结果是因为“某些原因”，我甚至没能用上这个花费了我不下 20 小时的 Slide。当时挺崩溃的。</p>
+<p>然后，暑假之初因为刷完机发现没什么可玩的有些无所事事，然后就发现 <a href="https://cn.sli.dev">Slidev 官网中文文档</a> 还有些英文没有翻译，就一时兴起 x2 去仓库翻出来那个文档，然后写完了翻译。结果被大佬 <a href="https://github.com/KermanX">@KermanX</a> 告知文档要翻新，于是被拉进一个“神神秘秘的 QQ 群”，然后就开始了两三周的工作。每天就在做完作业后随手翻一两篇，然后一点一点地最后写了将近小半个仓库。最后也是成功地成为了中文文档的贡献者之一，好耶！</p>
+<p>我们的工作分支 Merge 到 Main 那天正好是七夕～虽然今年依然是单刷，但是第一次参与开源贡献的喜悦还是冲淡了孤独。</p>
+<p><img loading="lazy" src="https://s2.loli.net/2024/08/24/7v5jELiRnoCg9SX.png" alt="github 上的 pr"  />
+</p>
+<h2 id="4总结">4.总结<a hidden class="anchor" aria-hidden="true" href="#4总结">#</a></h2>
+<p>这是一个看上去什么也没做但是又感觉做了很多的假期，已经符合了我对<strong>最后的暑假</strong>的期待。希望以后也能有机会像这次一样，能够和家人一起看奥运会聊体育，能够自由地去做自己想做的事，能和朋友一起做能让别人开心的事。这，或许就是青春的一部分吧。
+话说，这个暑假因为学校装修，我们被迫提前放假，又提前一周返校，刚好错过了《黑神话》发售的“第三次赛博大战”（前两次分别是<code>《赛博朋克》秒杀 3090</code>，<code>《星空》赛尔号杀手</code>）。第一次能心平气和地和父母聊一个我们都不玩的游戏。然而在今天以后，就正式地开启了高三上六休一，全年无休的生活了。希望我能坚持写些 Blog，让明年 7 月时的我也能感慨，这就是我的高三！</p>
 
 
         </div>
@@ -314,15 +414,10 @@
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="prev" href="https://wemsx.cn/posts/life/last-summer-vacation/">
-    <span class="title">« 上一页</span>
-    <br>
-    <span>最后一个暑假了</span>
-  </a>
-  <a class="next" href="https://wemsx.cn/posts/tech/huawei-root-1/">
+  <a class="next" href="https://wemsx.cn/posts/tech/huawei-root-2/">
     <span class="title">下一页 »</span>
     <br>
-    <span>真想给华为开个 root</span>
+    <span>我刷机成了，但是...</span>
   </a>
 </nav>
 
