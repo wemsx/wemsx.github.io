@@ -93,8 +93,8 @@ params:
         url: posts/tech/
       - name: 🏫学习
         url: posts/study/
-      - name: Everate
-        url: https://everate.wemsx.top
+      - name: 🏷标签
+        url: tags/
 
   socialIcons:
     - name: github

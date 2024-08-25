@@ -1,1 +1,2 @@
+./pages
 rsync -avuz --progress --exclude '.git' --delete public/ -e 'ssh -p 8485' wemsx@8.137.14.93:/home/wemsx/www/wemsx.cn/
