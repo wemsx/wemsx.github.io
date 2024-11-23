@@ -7,7 +7,7 @@
 <meta name="robots" content="index, follow">
 <title>关于 | 浪至江海</title>
 <meta name="keywords" content="">
-<meta name="description" content="还在施工中&hellip;&hellip; 👋Hi！我是 wemsx.">
+<meta name="description" content="还在施工中&hellip;&hellip; 👋Hi！我是 wemsx. 我是一个热爱前端的高三学生，当然，实力比较菜，请多指教。 万化境生，万境生辉。 以下是我">
 <meta name="author" content="wemsx">
 <link rel="canonical" href="https://wemsx.cn/about/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
@@ -62,7 +62,7 @@
   
 
 <meta property="og:title" content="关于" />
-<meta property="og:description" content="还在施工中&hellip;&hellip; 👋Hi！我是 wemsx." />
+<meta property="og:description" content="还在施工中&hellip;&hellip; 👋Hi！我是 wemsx. 我是一个热爱前端的高三学生，当然，实力比较菜，请多指教。 万化境生，万境生辉。 以下是我" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://wemsx.cn/about/" /><meta property="article:section" content="" />
 
@@ -70,7 +70,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="关于"/>
-<meta name="twitter:description" content="还在施工中&hellip;&hellip; 👋Hi！我是 wemsx."/>
+<meta name="twitter:description" content="还在施工中&hellip;&hellip; 👋Hi！我是 wemsx. 我是一个热爱前端的高三学生，当然，实力比较菜，请多指教。 万化境生，万境生辉。 以下是我"/>
 
 
 <script type="application/ld+json">
@@ -93,12 +93,12 @@
   "@type": "BlogPosting",
   "headline": "关于",
   "name": "关于",
-  "description": "还在施工中\u0026hellip;\u0026hellip; 👋Hi！我是 wemsx.",
+  "description": "还在施工中\u0026hellip;\u0026hellip; 👋Hi！我是 wemsx. 我是一个热爱前端的高三学生，当然，实力比较菜，请多指教。 万化境生，万境生辉。 以下是我",
   "keywords": [
     
   ],
-  "articleBody": "还在施工中……\n👋Hi！我是 wemsx.\n",
-  "wordCount" : "28",
+  "articleBody": "还在施工中……\n👋Hi！我是 wemsx.\n我是一个热爱前端的高三学生，当然，实力比较菜，请多指教。\n万化境生，万境生辉。 以下是我出没的平台。\n@wemsx @wemsx 以下账号长期不用:D @wemsx07 @iamwemsx 以下是我的兴趣 ",
+  "wordCount" : "97",
   "inLanguage": "zh",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -221,10 +221,98 @@
             <h1 class="post-title">
                 关于
             </h1>
-        </header> 
+        </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e4%b8%87%e5%8c%96%e5%a2%83%e7%94%9f%e4%b8%87%e5%a2%83%e7%94%9f%e8%be%89" aria-label="万化境生，万境生辉。">万化境生，万境生辉。</a>
+                </li>
+            </ul>
+        </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+        
+        activeElement = elements[0];
+        const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+        document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+    }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        if (elements) {
+            activeElement = Array.from(elements).find((element) => {
+                if ((getOffsetTop(element) - window.pageYOffset) > 0 &&
+                    (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                    return element;
+                }
+            }) || activeElement
+
+            elements.forEach(element => {
+                const id = encodeURI(element.getAttribute('id')).toLowerCase();
+                if (element === activeElement){
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+                } else {
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+                }
+            })
+        }
+    }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;
+    }
+</script>
         <div class="post-content"><p>还在施工中&hellip;&hellip;</p>
 <!--\more-->
 <p>👋Hi！我是 wemsx.</p>
+<p>我是一个热爱前端的高三学生，当然，实力比较菜，请多指教。</p>
+<h1 id="万化境生万境生辉">万化境生，万境生辉。<a hidden class="anchor" aria-hidden="true" href="#万化境生万境生辉">#</a></h1>
+<p>以下是我出没的平台。</p>
+<ul>
+<li><ant-design-bilibili-outlined /> @wemsx</li>
+<li><ant-design-github-filled /> @wemsx
+<del>以下账号长期不用</del>:D</li>
+<li><ant-design-youtube-filled /> @wemsx07</li>
+<li><ant-design-x-outlined /> @iamwemsx
+以下是我的兴趣</li>
+<li><ant-design-docker-outlined /> <ant-design-apple-filled /> <ant-design-android-filled /> <ant-design-api-filled /> <ant-design-java-script-outlined /> <ant-design-linux-outlined /> <ant-design-cloud-twotone /></li>
+<li><logos-typescript-icon /> <logos-nodejs-icon /> <logos-pnpm /> <logos-vue /> <logos-vitejs /> <logos-unocss /> <logos-visual-studio-code /></li>
+</ul>
 
 
         </div>
@@ -268,8 +356,12 @@
 
     
 
+    
+
+    
+
 <footer class="footer">
-    <span style="color: #939393;margin-bottom: 10px;"> 已经写了总计 11573 字</span><br/>
+    <span style="color: #939393;margin-bottom: 10px;"> 已经写了总计 12505 字</span><br/>
     <span style="color: #939393;">
         Copyright
         &copy;
