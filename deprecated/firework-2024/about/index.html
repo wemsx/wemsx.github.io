@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'LXGW WenKai Screen', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        font-size: calc(10px + 0.33vw);
+        -webkit-font-smoothing: antialiased;
+        padding: 5vh 10vw;
+        color: #121314;
+      }
+      h1 {
+        font-size: 4.5em;
+        font-weight: 500;
+        margin-bottom: 0;
+      }
+      p {
+        font-size: 1.6em;
+        font-weight: 300;
+        line-height: 1.4;
+        max-width: 28em;
+      }
+      a {
+        text-decoration: none;
+        white-space: nowrap;
+        color: #121314;
+        position: relative;
+      }
+      a:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: 66%;
+        left: -0.1em;
+        right: -0.1em;
+        bottom: 0;
+        transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+        background-color: rgba(79, 192, 141, 0.5);
+      }
+      a:hover:after {
+        top: 0%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello.</h1>
+    <p style="font-weight: 500; font-size: 2.2em">This is a message from wemsx</p>
+    <p>
+        首先，这个玩意不完全是我做的，是基于开源项目改的。什么？原项目在哪里？哦我的天呐，我怎么找不到了(doge)。
+        <br />烟花功能实现: 原项目。二次开发,页面及烟花设计: @wemsx.
+        <br /> 学艺不精，手艺粗浅，敬请谅解
+    </p>
+    <p>
+      如果你也愿意用这个模板去给别人送祝福，你可以用以下链接：
+      <a href="https://wemsx.cn/firework/whois/index.html" target="_blank"> 火药填装器 </a><br/>
+      页面比较单调，只有一个输入框。输入后下方链接会变化，然后自行复制链接就可以分享给你的朋友了！
+      这个页面部署在我自己的服务器上，请不要尝试攻击此服务器。
+      服务器带宽仅 3Mbps，可能产生卡顿。
+    </p>
+    
+    <p style="font-weight: 500; font-size: 2.2em">免责声明：不对任何奇怪的输入内容负责，请自重。</p>
+  </body>
+</html>
