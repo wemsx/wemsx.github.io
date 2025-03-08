@@ -9,6 +9,88 @@ const memo = {
 if (typeof memos !== "undefined") {
     Object.assign(memo, memos);
 }
+function loadCssCode(code) {
+    let style = document.createElement('style');
+    style.type = 'text/css';
+    style.rel = 'stylesheet';
+    style.appendChild(document.createTextNode(code));
+    let head = document.getElementsByTagName('head')[0];
+    head.appendChild(style);
+}
+const allCSS = `
+  #bber{margin-top:1rem;width:auto!important;min-height:100vh;}
+  .bb-timeline ul{margin:0;padding:0;}
+  .bb-timeline ul li{margin-bottom:3rem;list-style-type:none;}
+  .bb-timeline ul li .bb-cont ul li{margin-bottom:0;}
+  .bb-timeline .bb-item,.bb-load button{border:1px solid #dcdcdc;border-radius:8px;box-shadow:3px 3px 5px rgba(0,0,0,.1);}
+  .bb-timeline .bb-item{padding:.6rem 1rem .6rem;font-size:16px;}
+  .bb-load button{padding:10px 30px;width:100%;background:0 0;letter-spacing:.8rem;font-style:italic;font-size:.8rem;}
+  .bb-timeline .bb-info{position:relative;margin-top:.5rem;font-size:14px;}
+  .bb-timeline .bb-info a{text-decoration:none;}
+  .bb-timeline .datatime{font-size:15px;}
+  .bb-timeline .bb-cont{overflow-x:hidden;overflow-y:scroll;margin-top:.5rem;max-height:50vh;}
+  .bb-timeline .datacount{position:absolute;right:0;bottom:0;cursor:pointer;}
+  .bb-timeline .datacount svg{margin:2px 5px;}
+  .bb-timeline .bb-cont img[src*=emotion]{display:inline-block;width:auto;}
+  .bb-timeline p{margin:0;margin:0;min-height:18px;color:#3b3d42;letter-spacing:1px;line-height:28px;}
+  .bb-timeline pre{color:#aaa;}
+  .bb-timeline pre p{display:inline-block;}
+  .bb-timeline pre p:empty{display:none;}
+  .bb-cont p{magin:0;}
+  .bb-cont blockquote{position:relative;margin:0 0 0 1rem;padding:.25rem 2rem;border-left:0 none;font-family:KaiTi,STKaiti,STFangsong!important;}
+  .bb-cont blockquote::before{position:absolute;top:5px;left:10px;content:'“';font-weight:700;font-size:28px;font-family:Georgia,serif;line-height:2rem;}
+  .tag-span{color:#42b983;cursor:pointer;}
+  #tag-list{font-size:1.8rem;}
+  .bb-source a{margin:0 6px 0 0;padding:2px 8px;border-radius:5px;background:#3b3d42;color:#fafafa;font-weight:400;font-size:.9rem;}
+  .bb-cont .img{border-radius:4px;cursor:pointer;}
+  .bb-cont .img.square{width:180px;height:180px;object-fit:cover;}
+  .resimg.grid{display:grid;box-sizing:border-box;margin:4px 0 0;width:calc(100%* 2 / 3);grid-template-columns:repeat(3,1fr);grid-template-rows:auto;gap:4px;}
+  .resimg.grid-2{width:80%;grid-template-columns:repeat(2,1fr);}
+  .resimg.grid-4{width:calc(80% * 2 / 3);grid-template-columns:repeat(2,1fr);}
+  .resimg.grid figure.gallery-thumbnail{position:relative;padding-top:100%;width:100%;height:0;cursor:zoom-in;}
+  .resimg figure{max-height:50%;text-align:left;}
+  .resimg figure img{max-height:50vh;}
+  .resimg.grid figure,figcaption{margin:0!important;}
+  .resimg.grid figure.gallery-thumbnail>img.thumbnail-image{position:absolute;top:0;left:0;display:block;width:100%;height:100%;object-fit:cover;object-position:50% 50%;}
+  #bb-footer{margin:5rem auto 1rem;text-align:center;}
+  #bb-footer p{margin:0 0 .6rem;}
+  .bb-allnums{letter-spacing:2px;}
+  .bb-allpub{text-decoration:none;font-style:italic;}
+  .bb-timeline ul li::before{content:none;}
+  .memos__verify { margin-left: 2px; max-width: 20px; max-height: 20px; color: #1d9bf0; -moz-user-select: none; -ms-user-select: none; -webkit-user-select: none; user-select: none; vertical-align: text-bottom; position: relative; height: 1.25rem; fill: currentcolor; display: inline-block; flex-shrink: 1; margin-left: 4px; }
+  /* db-card -------- start*/
+  
+  .db-card{border-bottom:1px solid #eaeaea;box-shadow: none;margin:-0.6rem -1rem .6rem;}
+  .db-card-subject{display: flex;align-items:flex-start;line-height:1.6;padding:12px;position:relative;}
+  .dark .db-card{background:#252627;border-bottom:1px solid #3b3d42;}
+  .db-card-content {flex:1 1 auto;}
+  .db-card-post {width: 96px;margin-right: 15px;display: flex;flex: 0 0 auto;}
+  .db-card-title {margin-bottom: 5px;font-size: 18px;}
+  .db-card-title a{text-decoration: none!important}
+  .db-card-abstract,.db-card-comment{font-size:14px;overflow: hidden;max-height:3rem;}
+  .db-card-cate{position: absolute;top:0;right:0;background:#f99b01;padding:1px 8px;font-size:small;font-style:italic;border-radius:0 8px 0 8px;text-transform:capitalize;}
+  .db-card-post img{width: 96px!important;height: 96px!important;border-radius: 4px;-o-object-fit: cover;object-fit: cover;}
+  
+  .loader {position: relative;margin:3rem auto;width: 100px;}
+  .loader::before {content: '';display: block;padding-top: 100%;}
+  .circular {animation: rotate 2s linear infinite;height: 100%;transform-origin: center center;width: 100%;position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;}
+  .path {stroke-dasharray: 1, 200;stroke-dashoffset: 0;animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;stroke-linecap: round;}
+  @keyframes rotate {100% {transform: rotate(360deg);}}
+  @keyframes dash {
+    0% {stroke-dasharray: 1, 200;stroke-dashoffset: 0;}
+    50% {stroke-dasharray: 89, 200;stroke-dashoffset: -35px;}
+    100% {stroke-dasharray: 89, 200;stroke-dashoffset: -124px;}
+  }
+  @keyframes color {
+    100%,0% {stroke: #d62d20;}40% {stroke: #0057e7;}66% {stroke: #008744;}80%,90% {stroke: #ffa700;}
+  }
+  
+  .dark .bb-timeline .bb-load button,.dark .bb-timeline .bb-item{border:1px solid #3b3d42;}
+  .dark .bb-timeline .bb-item p{color:#fafafa;}
+  .dark .bb-timeline .bb-item p svg{fill:#fafafa;}
+  .dark #tag-list .tag-span{background:rgba(238,238,238,.1);}
+  `
+loadCssCode(allCSS);
 
 const limit = memo.limit;
 const memosHost = memo.host.replace(/\/$/, '');
@@ -21,7 +103,7 @@ let nextPageToken = '';
 let nextDom = '';
 let btnRemove = 0;
 const memoDom = document.querySelector(memo.domId);
-const loadBtn = '<button class="load-btn button-load">努力加载中……</button>';
+const loadBtn = '<div class="bb-load"><button class="load-btn button-load">加载中……</button></div>';
 
 let userInfo; // 定义全局变量 userInfo
 
@@ -114,7 +196,7 @@ function updateHTML(data, userInfo) {
     let memoResult = '';
     for (const item of data) {
         let memoContREG = item.content
-            .replace(TAG_REG, "<span class='tag-span'><a rel='noopener noreferrer' href='#$1'>#$1</a></span>");
+            .replace(TAG_REG, "<span class='tag-span primary'><a rel='noopener noreferrer' href='#$1'>#$1</a></span>");
 
         memoContREG = marked.parse(memoContREG)
             .replace(BILIBILI_REG, "<div class='video-wrapper'><iframe src='//www.bilibili.com/blackboard/html5mobileplayer.html?bvid=$1&as_wide=1&high_quality=1&danmaku=0' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true' style='position:absolute;height:100%;width:100%;'></iframe></div>")
@@ -156,10 +238,19 @@ function updateHTML(data, userInfo) {
 
         const relativeTime = getRelativeTime(new Date(item.createTime));
 
-        memoResult += `<li class="timeline"><div class="memos__content" style="--avatar-url: url(${userInfo.avatarurl})"><div class="memos__text"><div class="memos__userinfo"><a href=${userInfo.userurl} target="_blank" ><div>${userInfo.memoname}</div></a><div><svg viewBox="0 0 24 24" aria-label="认证账号" class="memos__verify"><g><path d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z"></path></g></svg></div><div class="memos__id">@${userInfo.memousername}</div></div><p>${memoContREG}</p></div><div class="memos__meta"><small class="memos__date">${relativeTime} • From「<a href="${memosHost}/m/${item.uid}" target="_blank">Memos</a>」</small></div></div></li>`;
+        memoResult += `<li class="memo-${item.uid}">
+        <div class="bb-item">
+          <div class="bb-cont">
+            <p>${memoContREG}</p>
+          </div>
+          <div class="bb-info">
+            ${relativeTime} · From <a href="${memosHost}/m/${item.uid}" target="_blank"><span class="datatime">${userInfo.memousername}</span></a>
+          </div>
+        </div>
+      </li>`
     }
 
-    const resultAll = `<ul>${memoResult}</ul>`;
+    const resultAll = `<section class='bb-timeline'><ul class='bb-list-ul'>${memoResult}</ul></section>`;
     memoDom.insertAdjacentHTML('beforeend', resultAll);
     document.querySelector('button.button-load').textContent = '加载更多';
 
@@ -168,7 +259,7 @@ function updateHTML(data, userInfo) {
 
     // Images lightbox
     window.ViewImage && ViewImage.init('.container img');
-    
+
 }
 // Memos End
 
@@ -200,38 +291,6 @@ function getRelativeTime(date) {
     }
 }
 // Relative Time End
-
-// Toggle Darkmode
-const localTheme = window.localStorage && window.localStorage.getItem("theme");
-const themeToggle = document.querySelector(".theme-toggle");
-
-if (localTheme) {
-    document.body.classList.remove("light-theme", "dark-theme");
-    document.body.classList.add(localTheme);
-}
-
-themeToggle.addEventListener("click", () => {
-    const themeUndefined = !new RegExp("(dark|light)-theme").test(document.body.className);
-    const isOSDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-    if (themeUndefined) {
-        if (isOSDark) {
-            document.body.classList.add("light-theme");
-        } else {
-            document.body.classList.add("dark-theme");
-        }
-    } else {
-        document.body.classList.toggle("light-theme");
-        document.body.classList.toggle("dark-theme");
-    }
-
-    window.localStorage &&
-        window.localStorage.setItem(
-            "theme",
-            document.body.classList.contains("dark-theme") ? "dark-theme" : "light-theme",
-        );
-});
-// Darkmode End
 
 // Memos Total Start
 // Get Memos total count
@@ -284,7 +343,7 @@ function fetchDB() {
     var dbAPI = 'https://cors.ima.cm/https://api.loliko.cn/';
     var dbA = document.querySelectorAll(".timeline a[href*='douban.com/subject/']:not([rel='noreferrer'])") || '';
     if (dbA) {
-                const promises = [];
+        const promises = [];
         for (var i = 0; i < dbA.length; i++) {
             _this = dbA[i];
             var dbHref = _this.href;
