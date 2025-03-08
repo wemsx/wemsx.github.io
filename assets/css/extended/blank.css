@@ -121,7 +121,10 @@ img:active {
 
 .footer {
     max-width: none;
-    padding: 10px 0 5px 0;
+    padding: 0px 0 5px 0;
+    font-size: 14px;
+    line-height: 17px;
+    bottom: 15%;
 }
 
 .entry-cover1 {

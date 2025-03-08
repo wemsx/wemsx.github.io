@@ -81,7 +81,7 @@ params:
   profileMode:
     enabled: true
     title: wemsx
-    imageUrl: "https://gcore.jsdelivr.net/gh/wemsx/wemsx.github.io@master/images/wemsx.png"
+    imageUrl: "https://gcore.jsdelivr.net/gh/wemsx/wemsx.github.io@master/images/avatar.png"
     imageTitle: wemsx's avatar
     imageWidth: 150
     imageHeight: 150

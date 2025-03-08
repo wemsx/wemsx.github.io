@@ -1,0 +1,74 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #222;
+  font-family: "Karla", sans-serif;
+  color: #fff;
+  height: 100%;
+  overflow: hidden;
+  user-select: none;
+}
+h1 {
+    font-size: 1.8rem;
+}
+#text {
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  height: 20vw;
+  width: 80vw !important;
+  font-size: 5vw;
+  transform: translate(-50%,-50%);
+  font-family: "LXGW WenKai Screen", serif;
+  padding: 0.5rem 0.8rem;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 1rem;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: nowrap;
+}
+
+span#pen {
+  position: relative;
+  display: inline-block;
+  animation: drop 1s;
+}
+
+#wantSomthing {
+  color: aliceblue;
+  margin: auto;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+#copyright p {
+  position: fixed;
+  top: 96%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100%);
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  white-space: nowrap;
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(-6rem);
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateY(0.9rem);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}

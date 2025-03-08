@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>火药填装器</title>
+  <style>
+    body {
+      height: 100vh;
+      background-color: #e8e8e8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #app {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .urlOpt {
+      width: 50vw;
+      word-wrap: break-word;
+      word-break: break-all;
+      white-space: normal;
+    }
+
+    input {
+      border: none;
+      outline: none;
+      border-radius: 15px;
+      padding: 1em;
+      background-color: #ccc;
+      box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+      transition: 300ms ease-in-out;
+    }
+
+    input:focus {
+      background-color: rgb(232, 232, 232);
+      transform: scale(1.05);
+      box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+    }
+  </style>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+</head>
+
+<body>
+
+  <div id="app">
+    <input v-model="msg.name" /><br />
+    <div id="wrapper" v-if="params"><input v-model="msg.e" /></div>
+    <p class="urlOpt">{{ output }}</p>
+  </div>
+
+  <script>
+    const { createApp, reactive, computed } = Vue;
+
+    const url = new URL(window.location.href);
+    let params = url.searchParams.get("wemsx");
+
+    createApp({
+      setup() {
+        const msg = reactive({
+          name: "wemsx",
+          e: "新年快乐 🎉🎉",
+        });
+        const output = computed(() => {
+          let massage = {
+            name: msg.name,
+            e: encodeURIComponent(msg.e)
+          }
+          return (
+            "https://wemsx.cn/firework?vme50=" +
+            btoa(encodeURIComponent(JSON.stringify(massage)))
+          );
+        });
+        return {
+          output,
+          msg,
+          params
+        };
+      },
+    }).mount("#app");
+  </script>
+</body>
+
+</html>
