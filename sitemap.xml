@@ -2,25 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://wemsx.cn/</loc>
-    <lastmod>2025-02-01T23:36:51+08:00</lastmod>
+    <loc>https://wemsx.cn/posts/material/true/</loc>
+    <lastmod>2025-04-05T22:26:06+08:00</lastmod>
   </url><url>
-    <loc>https://wemsx.cn/posts/life/</loc>
-    <lastmod>2025-02-01T23:36:51+08:00</lastmod>
+    <loc>https://wemsx.cn/tags/</loc>
+    <lastmod>2025-04-05T22:26:06+08:00</lastmod>
+  </url><url>
+    <loc>https://wemsx.cn/tags/%E6%AD%8C%E8%AF%8D/</loc>
+    <lastmod>2025-04-05T22:26:06+08:00</lastmod>
+  </url><url>
+    <loc>https://wemsx.cn/</loc>
+    <lastmod>2025-04-05T22:26:06+08:00</lastmod>
+  </url><url>
+    <loc>https://wemsx.cn/posts/material/</loc>
+    <lastmod>2025-04-05T22:26:06+08:00</lastmod>
   </url><url>
     <loc>https://wemsx.cn/posts/</loc>
-    <lastmod>2025-02-01T23:36:51+08:00</lastmod>
+    <lastmod>2025-04-05T22:26:06+08:00</lastmod>
+  </url><url>
+    <loc>https://wemsx.cn/posts/tech/memos-1/</loc>
+    <lastmod>2025-03-29T23:05:14+08:00</lastmod>
+  </url><url>
+    <loc>https://wemsx.cn/tags/memos/</loc>
+    <lastmod>2025-03-29T23:05:14+08:00</lastmod>
+  </url><url>
+    <loc>https://wemsx.cn/posts/tech/</loc>
+    <lastmod>2025-03-29T23:05:14+08:00</lastmod>
+  </url><url>
+    <loc>https://wemsx.cn/tags/%E6%8A%98%E8%85%BE/</loc>
+    <lastmod>2025-03-29T23:05:14+08:00</lastmod>
+  </url><url>
+    <loc>https://wemsx.cn/tags/%E6%A0%87%E7%AD%BE1/</loc>
+    <lastmod>2025-03-22T23:10:16+08:00</lastmod>
+  </url><url>
+    <loc>https://wemsx.cn/tags/%E6%A0%87%E7%AD%BE2/</loc>
+    <lastmod>2025-03-22T23:10:16+08:00</lastmod>
+  </url><url>
+    <loc>https://wemsx.cn/posts/life/</loc>
+    <lastmod>2025-03-22T23:10:16+08:00</lastmod>
+  </url><url>
+    <loc>https://wemsx.cn/posts/life/album-of-the-prolonged-dream-5/</loc>
+    <lastmod>2025-03-22T23:10:16+08:00</lastmod>
   </url><url>
     <loc>https://wemsx.cn/posts/material/natlan-heros/</loc>
     <lastmod>2024-12-28T22:40:26+08:00</lastmod>
   </url><url>
-    <loc>https://wemsx.cn/tags/</loc>
-    <lastmod>2024-12-28T22:40:26+08:00</lastmod>
-  </url><url>
     <loc>https://wemsx.cn/tags/%E7%B4%A0%E6%9D%90/</loc>
-    <lastmod>2024-12-28T22:40:26+08:00</lastmod>
-  </url><url>
-    <loc>https://wemsx.cn/posts/material/</loc>
     <lastmod>2024-12-28T22:40:26+08:00</lastmod>
   </url><url>
     <loc>https://wemsx.cn/tags/%E9%95%BF%E6%A2%A6%E9%9B%86/</loc>
@@ -80,13 +107,7 @@
     <loc>https://wemsx.cn/posts/life/last-summer-vacation/</loc>
     <lastmod>2024-08-24T22:47:41+08:00</lastmod>
   </url><url>
-    <loc>https://wemsx.cn/posts/tech/</loc>
-    <lastmod>2024-08-07T22:39:07+08:00</lastmod>
-  </url><url>
     <loc>https://wemsx.cn/posts/tech/huawei-root-2/</loc>
-    <lastmod>2024-08-07T22:39:07+08:00</lastmod>
-  </url><url>
-    <loc>https://wemsx.cn/tags/%E6%8A%98%E8%85%BE/</loc>
     <lastmod>2024-08-07T22:39:07+08:00</lastmod>
   </url><url>
     <loc>https://wemsx.cn/tags/%E7%BB%88%E7%AB%AF/</loc>

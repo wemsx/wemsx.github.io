@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Hi! Memos | 浪至江海</title>
+<meta name="keywords" content="Memos, 折腾">
+<meta name="description" content="一些关于 Memos 的事儿">
+<meta name="author" content="wemsx">
+<link rel="canonical" href="https://wemsx.cn/posts/tech/memos-1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://gcore.jsdelivr.net/gh/wemsx/wemsx.github.io@master/images/logo.svg">
+
+<link rel="apple-touch-icon" href="https://wemsx.cn/apple-touch-icon.png">
+<link rel="mask-icon" href="https://wemsx.cn/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh" href="https://wemsx.cn/posts/tech/memos-1/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+
+
+  
+
+<meta property="og:title" content="Hi! Memos" />
+<meta property="og:description" content="一些关于 Memos 的事儿" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wemsx.cn/posts/tech/memos-1/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-03-29T23:05:14+08:00" />
+<meta property="article:modified_time" content="2025-03-29T23:05:14+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hi! Memos"/>
+<meta name="twitter:description" content="一些关于 Memos 的事儿"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+
+        {
+          "@type": "ListItem",
+          "position":  1 ,
+          "name": "文章",
+          "item": "https://wemsx.cn/posts/"
+        },
+
+        {
+          "@type": "ListItem",
+          "position":  2 ,
+          "name": "技术",
+          "item": "https://wemsx.cn/posts/tech/"
+        }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Hi! Memos",
+      "item": "https://wemsx.cn/posts/tech/memos-1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Hi! Memos",
+  "name": "Hi! Memos",
+  "description": "一些关于 Memos 的事儿",
+  "keywords": [
+    "Memos", "折腾"
+  ],
+  "articleBody": "1. 始源 最早的时候在折腾Hexo，不知道在哪里看到别人的说说，一眼爱上了，然后开始整，最先尝试的是「Artitalk.js」，不过体验不太好，因为不知道为什么始终会在 F12 里报错，没办法正常用。所以之后转投了林木木老师的「哔哔点啥」，部署在腾讯云的云函数，顺便发现「Flomo」这个神级应用，开始用这种方式记录一些日常想法。但是当时年龄不够，腾讯云的 Serverless 绑定域名似乎是要备案，反正只是部署了个 Demo，过了一段时间就Deprecate了🙂。\n话说后来Serverless全面收费，最舒服的那个套餐也没了。所以，当初换平台似乎是个不错的选择。\n2. 初见 然后，我就读到了这一篇文章 Hi，Memos，再次产生了对这类自部署小应用的兴趣。于是在买服务器之后立刻装了Memos。\n参考 这篇文章\n当时顺手装的 v0.18，没注意太多，这也为后来的一些问题埋下了伏笔。\n3.变局 我的 Memos 总体经过了两次升级，第一次是 v0.18 –\u003e v0.20，第二次是v0.20 –\u003e v0.23。两次升级的原因都有点幽默。 第一次的时候是为了用 v0.19 的 API，所以就无意识地直接升级了。结果升级以后发现这个版本有一个奇怪的问题，在加载 SPA 的时候有一个大得惊人的wasm从本地加载。要不是我的服务器只有 3Mbps 带宽我还看不出来🤪，当时开一个页面要接近 20s 的白屏加载，虽然说主要用 API，但是当时还没有完善各个段的生态，所以纠结了很久还是不想忍受这种糟糕的感觉，于是再次升级到 v0.20 解决！其实只要能缓存手感都完全不一样。 第二次则是因为听到的一些事，所以决定备份一下，于是把目录下的数据库文件拷了一份下载到本地一看，不对劲，打不开！然后慌乱中一通乱操作把服务错删了，再次启动的时候已经数据库报错了。事后分析，是我太憨憨没经验，没有停止服务就直接备份正在运行的文件😅\n第二次出事后，发现最新一版的数据还是丢了，然后上一版的数据还在，差距不太大，就尝试把那个数据库弄过来。因为备份习惯不好，服务器上的各个目录下似乎都有一份文件，但是大部分都不太可用🥲乖乖去学习吧。然后最后不想慢慢调整数据库了，就干脆上到 v0.23 了。\n结果刚更新，发现之前用的林木木老师的单页应用（基于 Memos 的 api）不兼容！关键已经不好回退了。所以硬着头皮去找找兼容的方案。最后在一位博主 @浪子 的站点上找到了适合新版本的方案，花了三个周末改来改去，最终还是结合了两位老师的版本搞了现在这一版，等高考之后再来慢慢改样式吧～\n4.理念 有一说一，Memos 本身有一定的思辨性。\n在好的方面，它开放，它方便。我不太愿意把它当成 Flomo 的平替，而是另一种产品思路。Flomo 服务需要记录的用户，保证稳定与易用。而 Memos 则是以开源的姿态欢迎我们利用它去做有意思的事，最简单的就是 SPA。而且它和 Minecraft Java 如出一辙，把更多的权利交给社区。比如我现在使用的手机端 MeoMemos，就是一个很好的例子。它不仅完全免费，而且 UI 很有东西，ios 版是部分的 swift 原生，安卓则是 Material 原生，观感很舒服（不过动画有点生硬，尽管平时很少看到）。近期的更新再次震惊到我了：\n非常感谢这些开发者。希望我也能在明年加入他们～\n在坏的方面，更多是对开发团队的不满。似乎在 Memos 的版本历史上，最常见的就是“数据库结构变化” “API 不兼容” 在我使用的这几个版本中几乎每个版本都有API 的“breaking change”，尤其是 v0.20 –\u003e v0.23 –\u003e v0.24 这三次，让我既没法用更早的一些第三方应用，也没有机会用更新（短期内不准备更新 Memos）。我从一个小白的角度看，似乎 Memos 更适合留下一个 fallback 的策略。我也想自己写一个api 适配，但是我没时间，而且 Memos 官方没有完整的新版 api文档🤣。还有一个比较幽默的问题，就是 api 会返回所有的 memo，无论你设置的是公开还是自己可见。\n除此之外，Memos 在版本际的数据库结构变化也有点大。升级是正常的，但是官方似乎从来没有给出辅助版本迁移的工具。等我！我考完高考就来做！\n未来过去成灰， 都为新生陪葬， 命运将我流放， 那又 怎样？ ————《何者》\n感谢： 我的引路人 @林木木 江湖救急 @浪子 好的开发团队 @Flomo @usememos @MeoMemos\n",
+  "wordCount" : "1638",
+  "inLanguage": "zh",
+  "datePublished": "2025-03-29T23:05:14+08:00",
+  "dateModified": "2025-03-29T23:05:14+08:00",
+  "author":[{
+    "@type": "Person",
+    "name": "wemsx"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://wemsx.cn/posts/tech/memos-1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "浪至江海",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://gcore.jsdelivr.net/gh/wemsx/wemsx.github.io@master/images/logo.svg"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    (function () {
+        let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
+        if(arr = document.cookie.match(reg)) {
+        } else {
+            if (new Date().getHours() >= 19 || new Date().getHours() < 6) {
+                document.body.classList.add('dark');
+                localStorage.setItem("pref-theme", 'dark');
+            } else {
+                document.body.classList.remove('dark');
+                localStorage.setItem("pref-theme", 'light');
+            }
+        }
+    })()
+
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://wemsx.cn/" accesskey="h" title="Hi Wemsx (Alt + H)">Hi Wemsx</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch">
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://wemsx.cn/posts/" title="📁归档">
+                <span>📁归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://wemsx.cn/timeline/" title="⌛️时间轴">
+                <span>⌛️时间轴</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://wemsx.cn/bb/" title="💬瞬间">
+                <span>💬瞬间</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://wemsx.cn/search/" title="🔍搜索">
+                <span>🔍搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://wemsx.cn/about/" title="🙋🏻‍♂️关于">
+                <span>🙋🏻‍♂️关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main page">
+<style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+</style>
+
+<article class="post-single">
+    <div id="single-content">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="https://wemsx.cn/">🏠 主页</a>&nbsp;»&nbsp;<a href="https://wemsx.cn/posts/">文章</a>&nbsp;»&nbsp;<a href="https://wemsx.cn/posts/tech/">技术</a></div>
+            <h1 class="post-title">
+                Hi! Memos
+            </h1>
+            <div class="post-meta">
+
+<style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    .parent-post-meta {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.8;
+    }
+</style>
+
+<span class="parent-post-meta">
+    <span id="post_meta_style_1">
+        <span class="fa fa-calendar-check-o"></span>
+        <span>2025-03-29
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    
+    
+    
+    
+    
+    
+    
+    <span id="post_meta_style_3">
+        <span class="fa fa-file-word-o"></span>
+        <span>1638字
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_4">
+        <span class="fa fa-clock-o"></span>
+        <span>4分钟
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_5">
+        <span class="fa fa-user-o"></span>
+        <span>wemsx
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_6">
+        <span class="fa fa-tags" style="opacity: 0.8"></span>
+        <span>
+            <span class="post-tags-meta">
+                <a href="https://wemsx.cn/tags/memos/" style="color: var(--secondary)!important;">Memos</a>
+                &nbsp;<a href="https://wemsx.cn/tags/%E6%8A%98%E8%85%BE/" style="color: var(--secondary)!important;">折腾</a>
+            </span>
+        </span>
+    </span>
+</span>
+
+
+</div>
+        </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-%e5%a7%8b%e6%ba%90" aria-label="1. 始源">1. 始源</a></li>
+                <li>
+                    <a href="#2-%e5%88%9d%e8%a7%81" aria-label="2. 初见">2. 初见</a></li>
+                <li>
+                    <a href="#3%e5%8f%98%e5%b1%80" aria-label="3.变局">3.变局</a></li>
+                <li>
+                    <a href="#4%e7%90%86%e5%bf%b5" aria-label="4.理念">4.理念</a>
+                </li>
+            </ul>
+        </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+        
+        activeElement = elements[0];
+        const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+        document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+    }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        if (elements) {
+            activeElement = Array.from(elements).find((element) => {
+                if ((getOffsetTop(element) - window.pageYOffset) > 0 &&
+                    (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                    return element;
+                }
+            }) || activeElement
+
+            elements.forEach(element => {
+                const id = encodeURI(element.getAttribute('id')).toLowerCase();
+                if (element === activeElement){
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+                } else {
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+                }
+            })
+        }
+    }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;
+    }
+</script>
+        <div class="post-content"><h2 id="1-始源">1. 始源<a hidden class="anchor" aria-hidden="true" href="#1-始源">#</a></h2>
+<p>最早的时候在折腾Hexo，不知道在哪里看到别人的说说，一眼爱上了，然后开始整，最先尝试的是「<a href="https://github.com/ArtitalkJS/Artitalk">Artitalk.js</a>」，不过体验不太好，因为不知道为什么始终会在 F12 里报错，没办法正常用。所以之后转投了林木木老师的「<a href="https://immmmm.com/bb-by-wechat-pro/">哔哔点啥</a>」，部署在腾讯云的云函数，顺便发现「<a href="https://flomoapp.com/">Flomo</a>」这个神级应用，开始用这种方式记录一些日常想法。但是当时年龄不够，腾讯云的 Serverless 绑定域名似乎是要备案，反正只是部署了个 Demo，过了一段时间就Deprecate了🙂。</p>
+<p>话说后来Serverless全面收费，最舒服的那个套餐也没了。所以，当初换平台似乎是个不错的选择。</p>
+<h2 id="2-初见">2. 初见<a hidden class="anchor" aria-hidden="true" href="#2-初见">#</a></h2>
+<p>然后，我就读到了这一篇文章 <a href="https://immmmm.com/hi-memos/">Hi，Memos</a>，再次产生了对这类自部署小应用的兴趣。于是在买服务器之后立刻装了Memos。</p>
+<blockquote>
+<p>参考 <a href="https://wemsx.cn/posts/life/18th-birthday/" title="长梦集·生日">这篇文章</a></p>
+</blockquote>
+<p>当时顺手装的 v0.18，没注意太多，这也为后来的一些问题埋下了伏笔。</p>
+<h2 id="3变局">3.变局<a hidden class="anchor" aria-hidden="true" href="#3变局">#</a></h2>
+<p>我的 Memos 总体经过了两次升级，第一次是 <code>v0.18</code> &ndash;&gt; <code>v0.20</code>，第二次是<code>v0.20</code> &ndash;&gt; <code>v0.23</code>。两次升级的原因都有点幽默。
+第一次的时候是为了用 <code>v0.19</code> 的 API，所以就无意识地直接升级了。结果升级以后发现这个版本有一个奇怪的问题，在加载 SPA 的时候有一个大得惊人的<code>wasm</code>从本地加载。要不是我的服务器只有 3Mbps 带宽我还看不出来🤪，当时开一个页面要接近 20s 的白屏加载，虽然说主要用 API，但是当时还没有完善各个段的生态，所以纠结了很久还是不想忍受这种糟糕的感觉，于是再次升级到 <code>v0.20</code> 解决！其实只要能缓存手感都完全不一样。
+第二次则是因为听到的一些事，所以决定备份一下，于是把目录下的数据库文件拷了一份下载到本地一看，不对劲，打不开！然后慌乱中一通乱操作把服务错删了，再次启动的时候已经数据库报错了。事后分析，是我太憨憨没经验，没有停止服务就直接备份正在运行的文件😅</p>
+<p>第二次出事后，发现最新一版的数据还是丢了，然后上一版的数据还在，差距不太大，就尝试把那个数据库弄过来。因为备份习惯不好，服务器上的各个目录下似乎都有一份文件，但是大部分都不太可用🥲乖乖去学习吧。然后最后不想慢慢调整数据库了，就干脆上到 <code>v0.23</code> 了。</p>
+<p>结果刚更新，发现之前用的林木木老师的单页应用（基于 Memos 的 api）不兼容！关键已经不好回退了。所以硬着头皮去找找兼容的方案。最后在一位博主 @<a href="https://blog.memos.ee/">浪子</a> 的站点上找到了适合新版本的方案，花了三个周末改来改去，最终还是结合了两位老师的版本搞了现在这一版，等高考之后再来慢慢改样式吧～</p>
+<h2 id="4理念">4.理念<a hidden class="anchor" aria-hidden="true" href="#4理念">#</a></h2>
+<p>有一说一，Memos 本身有一定的思辨性。</p>
+<p>在好的方面，它开放，它方便。我不太愿意把它当成 Flomo 的平替，而是另一种产品思路。Flomo 服务需要记录的用户，保证稳定与易用。而 Memos 则是以开源的姿态欢迎我们利用它去做有意思的事，最简单的就是 SPA。而且它和 Minecraft Java 如出一辙，把更多的权利交给社区。比如我现在使用的手机端  <a href="https://memos.moe"><code>MeoMemos</code></a>，就是一个很好的例子。它不仅完全免费，而且 UI 很有东西，ios 版是部分的 swift 原生，安卓则是 Material 原生，观感很舒服（不过动画有点生硬，尽管平时很少看到）。近期的更新再次震惊到我了：<img src="https://s2.loli.net/2025/04/05/YyCV4ptRfJmhcrl.jpg" alt="更新公告" style="zoom:25%;" /></p>
+<p>非常感谢这些开发者。希望我也能在明年加入他们～</p>
+<p>在坏的方面，更多是对开发团队的不满。似乎在 Memos 的版本历史上，最常见的就是“数据库结构变化” <em>“API 不兼容”</em> 在我使用的这几个版本中几乎每个版本都有API 的“breaking change”，尤其是 <code>v0.20</code> &ndash;&gt; <code>v0.23</code> &ndash;&gt; <code>v0.24</code> 这三次，让我既没法用更早的一些第三方应用，也没有机会用更新（短期内不准备更新 Memos）。我从一个小白的角度看，似乎 Memos 更适合留下一个 fallback 的策略。我也想自己写一个api 适配，但是我没时间，而且 Memos 官方没有完整的新版 api文档🤣。还有一个比较幽默的问题，就是 api 会返回所有的 memo，无论你设置的是公开还是自己可见。</p>
+<p>除此之外，Memos 在版本际的数据库结构变化也有点大。升级是正常的，但是官方似乎从来没有给出辅助版本迁移的工具。等我！我考完高考就来做！</p>
+<p><img loading="lazy" src="https://s2.loli.net/2025/04/05/3botnkhr1HEJqAF.jpg" alt="Memos.jpeg"  />
+</p>
+<blockquote>
+<p>未来过去成灰，
+都为新生陪葬，
+命运将我流放，
+那又 怎样？
+————《何者》</p>
+</blockquote>
+<blockquote>
+<p>感谢：
+我的引路人 @林木木
+江湖救急 @浪子
+好的开发团队 @Flomo @usememos @MeoMemos</p>
+</blockquote>
+
+
+        </div>
+
+        <footer class="post-footer">
+            
+<nav class="paginav">
+  <a class="prev" href="https://wemsx.cn/posts/material/true/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>TruE</span>
+  </a>
+  <a class="next" href="https://wemsx.cn/posts/life/album-of-the-prolonged-dream-5/">
+    <span class="title">下一页 »</span>
+    <br>
+    <span>长梦集·其四</span>
+  </a>
+</nav>
+
+        </footer>
+    </div>
+</article>
+</main>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<footer class="footer">
+    <span style="color: #939393;margin-bottom: 10px;"> 已经写了总计 19843 字</span><br/>
+    <span style="color: #939393;">
+        Copyright
+        &copy;
+        2023-2025
+        <a href="https://wemsx.cn/" style="color:#939393;">wemsx</a>
+        All Rights Reserved
+    </span> ｜ 
+    <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;">蜀ICP备2024052483号-1</a>&nbsp;
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <span class="topInner">
+        <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z"/>
+        </svg>
+        <span id="read_progress"></span>
+    </span>
+</a>
+
+<script>
+    document.addEventListener('scroll', function (e) {
+        const readProgress = document.getElementById("read_progress");
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
+    })
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+</script>
+<script>
+    let mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        (function() {
+            document.cookie = "change-themes" + "="+ escape ("false");
+        })()
+
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    });
+</script>
+
+<script>
+    document.body.addEventListener('copy', function (e) {
+        if (window.getSelection().toString() && window.getSelection().toString().length > 50) {
+            let clipboardData = e.clipboardData || window.clipboardData;
+            if (clipboardData) {
+                e.preventDefault();
+                let htmlData = window.getSelection().toString() +
+                    '\r\n\n————————————————\r\n' +
+                    '版权声明：本文为「'+"浪至江海"+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
+                let textData = window.getSelection().toString() +
+                    '\r\n\n————————————————\r\n' +
+                    '版权声明：本文为「'+"浪至江海"+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
+                clipboardData.setData('text/html', htmlData);
+                clipboardData.setData('text/plain', textData);
+            }
+        }
+    });
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = '复制';
+
+        function copyingDone() {
+            copybutton.innerText = '已复制！';
+            setTimeout(() => {
+                copybutton.innerText = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                let text = codeblock.textContent +
+                    '\r\n————————————————\r\n' +
+                    '版权声明：本文为「'+"浪至江海"+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
+                navigator.clipboard.writeText(text);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) {}
+            selection.removeRange(range);
+        });
+
+        let language = codeblock.className.replaceAll("language-", "")
+        let macTool = document.createElement("div")
+        let macTool1 = document.createElement("div")
+        let macTool2 = document.createElement("div")
+        let macTool3 = document.createElement("div")
+        let languageType = document.createElement("div")
+        languageType.innerText = language
+        macTool.setAttribute('class', 'mac-tool')
+        macTool1.setAttribute('class', 'mac bb1')
+        macTool2.setAttribute('class', 'mac bb2')
+        macTool3.setAttribute('class', 'mac bb3')
+        languageType.setAttribute('class', 'language-type')
+        macTool.appendChild(macTool1)
+        macTool.appendChild(macTool2)
+        macTool.appendChild(macTool3)
+        macTool.appendChild(languageType)
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+            container.appendChild(macTool)
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+            container.appendChild(macTool)
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+            container.appendChild(macTool)
+        }
+    });
+</script>
+</body>
+
+</html>
